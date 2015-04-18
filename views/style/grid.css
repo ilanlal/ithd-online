@@ -1,0 +1,120 @@
+.grid {
+    display: block;
+	overflow: hidden;
+    width: calc(100%-20px);
+}
+
+.grid th, .grid tr, .grid td {
+	padding: 0;
+	margin: 0;
+	white-space: nowrap;
+    overflow: hidden;
+	text-align: center;
+}
+
+.col-action {
+	width:18px;
+}
+
+.col-info {
+	display: none;
+}
+
+.col-saperator{
+	min-width:1px;
+	cursor: col-resize;
+	
+	background: url('../../views/img/saperator.png') no-repeat top left;
+	padding: 0;
+}
+
+.cell-values span {
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.cell-head span {
+	display: block;
+	white-space: nowrap;
+    overflow: hidden;
+	text-overflow: ellipsis;
+	background-color: black;
+	color: white;
+	padding: 2px;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin: 0;
+	border-radius: 3px;
+}
+
+.grid-body tr {
+	height: 22px;
+}
+
+.grid-body tr:hover {
+	height: 22px;
+	background-color: lightgray;
+}
+
+.col-icon img {
+	width: 18px;
+	display: block;
+	vertical-align: central;
+}
+
+.grid-cell a {
+	
+}
+
+.grid-cell input[type=checkbox] {
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+    cursor: pointer;
+    border: 0;
+	width: 22px;
+}
+
+.grid-cell input[type=checkbox]:checked {
+    background-color: yellow;
+}
+
+
+.grid-cell span {
+    display: block;
+    overflow: hidden;
+    white-space: normal;
+	height: 22px;
+}
+
+.derty {
+    color: red;
+    text-decoration: underline;
+}
+
+
+.grid-buttons {
+    width: 100%;
+    height: 45px;
+    margin: 0 0 5px 0;
+	display: block;
+}
+
+.grid-buttons a,
+.grid-buttons input {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    margin: 2px;
+    text-decoration: none;
+    white-space: nowrap;
+    float: left;
+	border:0;
+}
+
+.grid-buttons a:hover ,
+.grid-buttons input:hover {
+    box-shadow: black 0px 0px 2px 2px;
+}

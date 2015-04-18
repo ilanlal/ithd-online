@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration xmlns="http://logging.apache.org/log4php/">
+     
+    <appender name="myFileAppender" class="LoggerAppenderDailyFile">
+        <layout class="LoggerLayoutPattern">
+            <!--<param name="conversionPattern" value="[%date] [SID:%sessionid] [From:%server{REMOTE_ADDR}:%server{REMOTE_PORT}] [%logger]&gt; %message%newline" />-->
+            <param name="conversionPattern" value="---[%d{Y/m/d H:i:s,u}] [%-5level][%-10logger] [%-10l]---%n %10%msg%n %10%ex%n**********%n" />
+        </layout>
+        <param name="file" value="F:/OneDrive/server/htdocs/ithd-online/logs/ithd-online-%s.log" />
+        <param name="datePattern" value="Y-m-d" />
+    </appender>
+     
+    <root>
+        <level value="DEBUG" />
+        <appender_ref ref="myFileAppender" />
+    </root>
+</configuration>

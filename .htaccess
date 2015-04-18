@@ -1,0 +1,47 @@
+Options -Indexes
+
+#Change index.html to whatever filename you want to load when the domain is typed in without a filename
+DirectoryIndex default.php
+
+# Replace domain.com with the real domain name
+# This example is for redirecting whatever domain to the same domain with www. on the front
+# Swap domain.com and www.domain.com between the 2 lines to have it do the reverse
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^ithd-online.com$ 
+RewriteRule ^(.*)$ http://www.ithd-online.com/$1 [R=301,L]
+
+
+
+RewriteRule ^([^/.]+)/?$ /$1.php [L]
+RewriteRule ^([^/.]+)/([^/.]+)/?$ /$2.php?company=$2 [L]
+RewriteRule ^views/([^/.]+)/([^/.]+)/([^/.]+)/?$ views/$1/$2/$3.php [L]
+RewriteRule ^([^/.]+)/views/([^/.]+)/([^/.]+)/([^/.]+)/?$ views/$2/$3/$4.php?company=$1 [L]
+RewriteRule ^([^/.]+)/views/([^/.]+)/([^/.]+)/([^/.]+)/([^/.]+)/?$ views/$2/$3/$4.php?company=$1&id=$5 [L]
+RewriteRule ^([^/.]+)/views/([^/.]+)/([^/.]+)/([^/.]+)/([^/.]+)/([^/.]+)/?$ views/$2/$3/$4.php?company=$1&cmd=$5&id=$6 [L]
+
+#RewriteRule ^([^/.]+)/?$ /$1.php [L]
+#RewriteRule ^([^/.]+)/default/?$ /default.php [L]
+#RewriteRule ^([^/.]+)/free-contact-us-form/?$ /free-contact-us-form.php [L]
+#RewriteRule ^free-contact-us-form/([^/.]+)/?$ /free-contact-us-form.php?sid=$1 [L]
+#RewriteRule ^([^/.]+)/terms-of-service/?$ /terms-of-service.php [L]
+#RewriteRule ^([^/.]+)/contact-us/?$ /contact-us.php [L]
+
+#RewriteRule ^admin/([^/.]+)/?$ /admin/$1.php [L]
+#RewriteRule ^admin/([^/.]+)/([^/.]+)/?$ /admin/$1.php?id=$2 [L]
+#RewriteRule ^([^/.]+)/admin/incident/([^/.]+)/?$ /admin/incident.php?company=$1&ticketnumber=$2 [L]
+#RewriteRule ^([^/.]+)/admin/form/([^/.]+)/?$ /admin/form.php?company=$1&type=$2 [L]
+#RewriteRule ^([^/.]+)/admin/form/([^/.]+)/([^/.]+)/?$ /admin/form.php?company=$1&type=$2&id=$3 [L]
+#RewriteRule ^([^/.]+)/admin/([^/.]+)/?$ /admin/$2.php?company=$1 [L]
+#RewriteRule ^([^/.]+)/admin/([^/.]+)/([^/.]+)/?$ /admin/$2.php?company=$1&id=$3 [L]
+
+#RewriteRule ^customer/([^/.]+)/?$ /customer/$1.php [L]
+
+#RewriteRule ^customer/([^/.]+)/([^/.]+)/([^/.]+)/?$ /customer/$1/$2.php?id=$3 [L]
+#RewriteRule ^customer/forms/([^/.]+)/([^/.]+)/([^/.]+)/?$ /customer/forms/$1.php?type=$2&sid=$3 [L]
+#RewriteRule ^([^/.]+)/customer/([^/.]+)/?$ /customer/$2.php?company=$1 [L]
+#RewriteRule ^([^/.]+)/customer/reset-password/([^/.]+)/?$ /customer/reset-password.php?company=$1&id=$2 [L]
+#RewriteRule ^([^/.]+)/customer/([^/.]+)/([^/.]+)/?$ /customer/$2/$3.php?company=$1 [L]
+
+
+

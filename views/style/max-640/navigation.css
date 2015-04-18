@@ -1,0 +1,48 @@
+
+nav ul {
+    display: table;
+    width: 100%
+}
+
+nav li a {
+    display: block;
+    padding-top: auto;
+    padding-bottom: auto;
+    height: 32px;
+}
+nav li {
+    
+    display: table-cell;
+    border-left: white 2px solid;
+}
+
+nav li:first-child {
+    border-left: none;
+}
+
+nav li:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+.user-menu {
+    background-color: white;
+    display: table;
+}
+
+.user-menu .tile {
+    display: table;
+    float: left;
+    margin: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 16.3%;
+}
+
+.tile a {
+}
+
+.tile img {
+    width: 100%;
+}

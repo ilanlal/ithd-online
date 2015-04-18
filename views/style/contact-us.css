@@ -1,0 +1,138 @@
+header {
+}
+header .logo img {
+    float: left;
+    height: 45px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 20px;
+}
+
+header h1 {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type=submit] {
+    border-radius: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.thank-message {
+    margin: 30px 10px 20px 10px;
+}
+
+fieldset {
+    font-weight: bold;
+    padding-top: 0;
+}
+
+fieldset legend {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset .field {
+    display: table;
+    width: 100%;
+}
+
+
+fieldset label {
+    display:block;
+    margin-left: 0;
+    margin-right: 15px;
+    padding-top: 5px;
+    width: 125px;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    float: left;
+}
+
+fieldset input {
+    height: 26px;
+    margin-bottom: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+fieldset select {
+    height: 26px;
+    margin-bottom: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 125px;
+    cursor: pointer;
+}
+
+fieldset input[type=url] {
+}
+
+
+fieldset input[type=email] {
+    
+}
+
+fieldset input[type=text] {
+    
+}
+
+fieldset input[type=color] {
+    width: 45px;
+    border: none;
+    cursor: pointer;
+}
+
+fieldset input[type=checkbox] {
+    width: 15px;
+    cursor: pointer;
+}
+
+fieldset textarea {
+    height: 125px;
+    width: 100%;
+    font-size: 16px;
+}
+
+
+fieldset img {
+    vertical-align: middle;
+}
+
+
+.section-captcha img {
+    border-radius: 5px;
+    height: 22px;
+    vertical-align: middle;
+}
+
+input[type=submit] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background-color: green;
+    border: white 2px solid;
+    box-shadow: #000 0px 0px 1px 1px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+input[type=submit]:focus {
+    box-shadow: yellow 0px 0px 2px 2px;
+}
+
+input[type=submit]:hover {
+    box-shadow: #000 0px 0px 2px 2px;
+}

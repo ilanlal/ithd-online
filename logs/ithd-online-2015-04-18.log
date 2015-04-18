@@ -1,0 +1,3301 @@
+---[2015/04/18 00:50:29,531] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 38
+)
+
+ %10
+**********
+---[2015/04/18 00:53:26,757] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 38
+)
+
+ %10
+**********
+---[2015/04/18 01:00:43,292] [ERROR][Incident_DAO] [Base_DAO.error(F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php:27)]---
+ %10Commands out of sync; you can't run this command now
+ %10
+**********
+---[2015/04/18 01:00:43,496] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Uncaught exception 'Exception' with message 'Commands out of sync; you can't run this command now' in F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php:28
+Stack trace:
+#0 F:\OneDrive\server\htdocs\ithd-online\lib\dao\incident_dao.php(136): Base_DAO->error('Commands out of...')
+#1 F:\OneDrive\server\htdocs\ithd-online\lib\logic\incident_logic.php(43): Incident_DAO->get_dynamic('i.createdon,des...', NULL, NULL, NULL)
+#2 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(91): Incident_Logic->get_dynamic('i.createdon,des...', NULL, NULL, NULL)
+#3 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(86): BaseGrid_Control->get_items(NULL, NULL, NULL)
+#4 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(80): BaseGrid_Control->load()
+#5 F:\OneDrive\server\htdocs\ithd-online\controls\incident\incident_grid_control.php(24): BaseGrid_Control->__construct(Object(Incident_Logic), 'incident_grid', 'Tickets', Array, 'ticketnumber', NULL, false)
+#6 F:\OneDrive\ser
+    [file] => F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php
+    [line] => 28
+)
+
+ %10
+**********
+---[2015/04/18 01:00:51,564] [ERROR][Incident_DAO] [Base_DAO.error(F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php:27)]---
+ %10Commands out of sync; you can't run this command now
+ %10
+**********
+---[2015/04/18 01:00:51,773] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Uncaught exception 'Exception' with message 'Commands out of sync; you can't run this command now' in F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php:28
+Stack trace:
+#0 F:\OneDrive\server\htdocs\ithd-online\lib\dao\incident_dao.php(136): Base_DAO->error('Commands out of...')
+#1 F:\OneDrive\server\htdocs\ithd-online\lib\logic\incident_logic.php(43): Incident_DAO->get_dynamic('i.createdon,des...', NULL, NULL, NULL)
+#2 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(91): Incident_Logic->get_dynamic('i.createdon,des...', NULL, NULL, NULL)
+#3 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(86): BaseGrid_Control->get_items(NULL, NULL, NULL)
+#4 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(80): BaseGrid_Control->load()
+#5 F:\OneDrive\server\htdocs\ithd-online\controls\incident\incident_grid_control.php(24): BaseGrid_Control->__construct(Object(Incident_Logic), 'incident_grid', 'Tickets', Array, 'ticketnumber', NULL, false)
+#6 F:\OneDrive\ser
+    [file] => F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php
+    [line] => 28
+)
+
+ %10
+**********
+---[2015/04/18 01:03:03,697] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Call to undefined method mysqli_result::result_metadata()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php
+    [line] => 67
+)
+
+ %10
+**********
+---[2015/04/18 01:04:49,403] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Call to undefined method mysqli_result::result_metadata()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php
+    [line] => 67
+)
+
+ %10
+**********
+---[2015/04/18 01:08:40,932] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 38
+)
+
+ %10
+**********
+---[2015/04/18 02:35:34,704] [ERROR][Incident_DAO] [Base_DAO.error(F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php:27)]---
+ %10No data supplied for parameters in prepared statement
+ %10
+**********
+---[2015/04/18 02:35:34,709] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Uncaught exception 'Exception' with message 'No data supplied for parameters in prepared statement' in F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php:28
+Stack trace:
+#0 F:\OneDrive\server\htdocs\ithd-online\lib\dao\incident_dao.php(118): Base_DAO->error('No data supplie...')
+#1 F:\OneDrive\server\htdocs\ithd-online\lib\logic\incident_logic.php(43): Incident_DAO->get_dynamic('i.createdon,des...', NULL, NULL, NULL)
+#2 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(94): Incident_Logic->get_dynamic('i.createdon,des...', NULL, NULL, NULL)
+#3 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(86): BaseGrid_Control->get_items(NULL, NULL, NULL)
+#4 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(80): BaseGrid_Control->load()
+#5 F:\OneDrive\server\htdocs\ithd-online\controls\incident\incident_grid_control.php(24): BaseGrid_Control->__construct(Object(Incident_Logic), 'incident_grid', 'Tickets', Array, 'ticketnumber', NULL, false)
+#6 F:\OneDrive\se
+    [file] => F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php
+    [line] => 28
+)
+
+ %10
+**********
+---[2015/04/18 02:35:55,762] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Call to a member function bind_param() on null
+    [file] => F:\OneDrive\server\htdocs\ithd-online\lib\dao\incident_dao.php
+    [line] => 112
+)
+
+ %10
+**********
+---[2015/04/18 03:14:07,865] [ERROR][Incident_DAO] [Base_DAO.error(F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php:27)]---
+ %10You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ?
+        --ORDER BY ?
+        --LIMIT ?' at line 4
+ %10
+**********
+---[2015/04/18 03:14:07,870] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ?
+        --ORDER BY ?
+        --LIMIT ?' at line 4' in F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php:28
+Stack trace:
+#0 F:\OneDrive\server\htdocs\ithd-online\lib\dao\incident_dao.php(110): Base_DAO->error('You have an err...')
+#1 F:\OneDrive\server\htdocs\ithd-online\lib\logic\incident_logic.php(43): Incident_DAO->get_dynamic('i.createdon,des...', NULL, NULL, NULL)
+#2 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(94): Incident_Logic->get_dynamic('i.createdon,des...', NULL, NULL, NULL)
+#3 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(86): BaseGrid_Control->get_items(NULL, NULL, NULL)
+#4 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(80): BaseGrid_Control->load()
+#5 F:\OneDrive\server\htdocs\ithd-online\controls\incident\incident_grid_control.php
+    [file] => F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php
+    [line] => 28
+)
+
+ %10
+**********
+---[2015/04/18 03:16:52,284] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Cannot pass parameter 2 by reference
+    [file] => F:\OneDrive\server\htdocs\ithd-online\lib\dao\incident_dao.php
+    [line] => 110
+)
+
+ %10
+**********
+---[2015/04/18 03:18:37,506] [ERROR][Incident_DAO] [Base_DAO.error(F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php:27)]---
+ %10Unknown column 'i.3ticketnumber' in 'field list'
+ %10
+**********
+---[2015/04/18 03:18:37,510] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Uncaught exception 'Exception' with message 'Unknown column 'i.3ticketnumber' in 'field list'' in F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php:28
+Stack trace:
+#0 F:\OneDrive\server\htdocs\ithd-online\lib\dao\incident_dao.php(108): Base_DAO->error('Unknown column ...')
+#1 F:\OneDrive\server\htdocs\ithd-online\lib\logic\incident_logic.php(43): Incident_DAO->get_dynamic('i.createdon,des...', NULL, NULL, NULL)
+#2 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(94): Incident_Logic->get_dynamic('i.createdon,des...', NULL, NULL, NULL)
+#3 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(86): BaseGrid_Control->get_items(NULL, NULL, NULL)
+#4 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(80): BaseGrid_Control->load()
+#5 F:\OneDrive\server\htdocs\ithd-online\controls\incident\incident_grid_control.php(24): BaseGrid_Control->__construct(Object(Incident_Logic), 'incident_grid', 'Tickets', Array, 'ticketnumber', NULL, false)
+#6 F:\OneDrive\server\
+    [file] => F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php
+    [line] => 28
+)
+
+ %10
+**********
+---[2015/04/18 03:19:14,378] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 38
+)
+
+ %10
+**********
+---[2015/04/18 03:22:07,928] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 38
+)
+
+ %10
+**********
+---[2015/04/18 03:23:02,606] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 38
+)
+
+ %10
+**********
+---[2015/04/18 04:16:50,469] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 38
+)
+
+ %10
+**********
+---[2015/04/18 04:24:40,306] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Call to undefined function dump()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 15
+)
+
+ %10
+**********
+---[2015/04/18 04:33:04,105] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 2
+    [message] => mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement
+    [file] => F:\OneDrive\server\htdocs\ithd-online\lib\dao\incident_dao.php
+    [line] => 111
+)
+
+ %10
+**********
+---[2015/04/18 04:33:46,925] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 2
+    [message] => mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement
+    [file] => F:\OneDrive\server\htdocs\ithd-online\lib\dao\incident_dao.php
+    [line] => 111
+)
+
+ %10
+**********
+---[2015/04/18 04:34:49,588] [ERROR][Incident_DAO] [Base_DAO.error(F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php:27)]---
+ %10You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{where}}' at line 4
+ %10
+**********
+---[2015/04/18 04:34:49,788] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{where}}' at line 4' in F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php:28
+Stack trace:
+#0 F:\OneDrive\server\htdocs\ithd-online\lib\dao\incident_dao.php(108): Base_DAO->error('You have an err...')
+#1 F:\OneDrive\server\htdocs\ithd-online\lib\logic\incident_logic.php(43): Incident_DAO->get_dynamic('i.createdon,des...', NULL, NULL, NULL)
+#2 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(94): Incident_Logic->get_dynamic('i.createdon,des...', NULL, NULL, NULL)
+#3 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(86): BaseGrid_Control->get_items(NULL, NULL, NULL)
+#4 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(80): BaseGrid_Control->load()
+#5 F:\OneDrive\server\htdocs\ithd-online\controls\incident\incident_grid_control.php(24): BaseGrid_Control->__construct(Obje
+    [file] => F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php
+    [line] => 28
+)
+
+ %10
+**********
+---[2015/04/18 04:38:45,605] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Cannot use object of type ReflectionClass as array
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 157
+)
+
+ %10
+**********
+---[2015/04/18 04:43:59,884] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Uncaught exception 'ReflectionException' with message 'Property ticketnumber does not exist' in F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php:157
+Stack trace:
+#0 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(157): ReflectionClass->getProperty('ticketnumber')
+#1 F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php(13): BaseGrid_Control->get_xml()
+#2 F:\OneDrive\server\htdocs\ithd-online\test\grid\grid_test.php(20): GridView->__construct(Object(IncidentGrid_Control), 'standart')
+#3 {main}
+  thrown
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 157
+)
+
+ %10
+**********
+---[2015/04/18 04:44:40,229] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Uncaught exception 'ReflectionException' with message 'Property ticketnumber does not exist' in F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php:157
+Stack trace:
+#0 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(157): ReflectionClass->getProperty('ticketnumber')
+#1 F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php(13): BaseGrid_Control->get_xml()
+#2 F:\OneDrive\server\htdocs\ithd-online\test\grid\grid_test.php(20): GridView->__construct(Object(IncidentGrid_Control), 'standart')
+#3 {main}
+  thrown
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 157
+)
+
+ %10
+**********
+---[2015/04/18 04:44:41,557] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Uncaught exception 'ReflectionException' with message 'Property ticketnumber does not exist' in F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php:157
+Stack trace:
+#0 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(157): ReflectionClass->getProperty('ticketnumber')
+#1 F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php(13): BaseGrid_Control->get_xml()
+#2 F:\OneDrive\server\htdocs\ithd-online\test\grid\grid_test.php(20): GridView->__construct(Object(IncidentGrid_Control), 'standart')
+#3 {main}
+  thrown
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 157
+)
+
+ %10
+**********
+---[2015/04/18 04:44:56,829] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Uncaught exception 'ReflectionException' with message 'Property i.ticketnumber does not exist' in F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php:157
+Stack trace:
+#0 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(157): ReflectionClass->getProperty('i.ticketnumber')
+#1 F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php(13): BaseGrid_Control->get_xml()
+#2 F:\OneDrive\server\htdocs\ithd-online\test\grid\grid_test.php(20): GridView->__construct(Object(IncidentGrid_Control), 'standart')
+#3 {main}
+  thrown
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 157
+)
+
+ %10
+**********
+---[2015/04/18 04:47:48,121] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Uncaught exception 'ReflectionException' with message 'Property ticketnumber does not exist' in F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php:157
+Stack trace:
+#0 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(157): ReflectionClass->getProperty('ticketnumber')
+#1 F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php(13): BaseGrid_Control->get_xml()
+#2 F:\OneDrive\server\htdocs\ithd-online\test\grid\grid_test.php(20): GridView->__construct(Object(IncidentGrid_Control), 'standart')
+#3 {main}
+  thrown
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 157
+)
+
+ %10
+**********
+---[2015/04/18 04:56:42,003] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Uncaught exception 'ReflectionException' with message 'Property ticketnumber does not exist' in F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php:158
+Stack trace:
+#0 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(158): ReflectionClass->getProperty('ticketnumber')
+#1 F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php(13): BaseGrid_Control->get_xml()
+#2 F:\OneDrive\server\htdocs\ithd-online\test\grid\grid_test.php(20): GridView->__construct(Object(IncidentGrid_Control), 'standart')
+#3 {main}
+  thrown
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 158
+)
+
+ %10
+**********
+---[2015/04/18 05:00:39,921] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Uncaught exception 'ReflectionException' with message 'Property ticketnumber does not exist' in F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php:165
+Stack trace:
+#0 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(165): ReflectionClass->getProperty('ticketnumber')
+#1 F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php(13): BaseGrid_Control->get_xml()
+#2 F:\OneDrive\server\htdocs\ithd-online\test\grid\grid_test.php(20): GridView->__construct(Object(IncidentGrid_Control), 'standart')
+#3 {main}
+  thrown
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 165
+)
+
+ %10
+**********
+---[2015/04/18 05:00:40,895] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Uncaught exception 'ReflectionException' with message 'Property ticketnumber does not exist' in F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php:165
+Stack trace:
+#0 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(165): ReflectionClass->getProperty('ticketnumber')
+#1 F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php(13): BaseGrid_Control->get_xml()
+#2 F:\OneDrive\server\htdocs\ithd-online\test\grid\grid_test.php(20): GridView->__construct(Object(IncidentGrid_Control), 'standart')
+#3 {main}
+  thrown
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 165
+)
+
+ %10
+**********
+---[2015/04/18 05:01:07,948] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Uncaught exception 'ReflectionException' with message 'Property ticketnumber does not exist' in F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php:158
+Stack trace:
+#0 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(158): ReflectionClass->getProperty('ticketnumber')
+#1 F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php(13): BaseGrid_Control->get_xml()
+#2 F:\OneDrive\server\htdocs\ithd-online\test\grid\grid_test.php(20): GridView->__construct(Object(IncidentGrid_Control), 'standart')
+#3 {main}
+  thrown
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 158
+)
+
+ %10
+**********
+---[2015/04/18 05:03:03,741] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Uncaught exception 'ReflectionException' with message 'Class object does not exist' in F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php:156
+Stack trace:
+#0 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(156): ReflectionClass->__construct('object')
+#1 F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php(13): BaseGrid_Control->get_xml()
+#2 F:\OneDrive\server\htdocs\ithd-online\test\grid\grid_test.php(20): GridView->__construct(Object(IncidentGrid_Control), 'standart')
+#3 {main}
+  thrown
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 156
+)
+
+ %10
+**********
+---[2015/04/18 05:03:06,238] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Uncaught exception 'ReflectionException' with message 'Class object does not exist' in F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php:156
+Stack trace:
+#0 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(156): ReflectionClass->__construct('object')
+#1 F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php(13): BaseGrid_Control->get_xml()
+#2 F:\OneDrive\server\htdocs\ithd-online\test\grid\grid_test.php(20): GridView->__construct(Object(IncidentGrid_Control), 'standart')
+#3 {main}
+  thrown
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 156
+)
+
+ %10
+**********
+---[2015/04/18 05:03:50,837] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Call to a member function getProperty() on null
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 165
+)
+
+ %10
+**********
+---[2015/04/18 05:04:41,078] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Call to a member function getProperty() on null
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 165
+)
+
+ %10
+**********
+---[2015/04/18 05:05:03,188] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Uncaught exception 'ReflectionException' with message 'Property i.createdon does not exist' in F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php:163
+Stack trace:
+#0 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(163): ReflectionClass->getProperty('i.createdon')
+#1 F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php(13): BaseGrid_Control->get_xml()
+#2 F:\OneDrive\server\htdocs\ithd-online\test\grid\grid_test.php(20): GridView->__construct(Object(IncidentGrid_Control), 'standart')
+#3 {main}
+  thrown
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 163
+)
+
+ %10
+**********
+---[2015/04/18 05:05:53,353] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Uncaught exception 'ReflectionException' with message 'Property i.createdon does not exist' in F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php:163
+Stack trace:
+#0 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(163): ReflectionClass->getProperty('i.createdon')
+#1 F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php(13): BaseGrid_Control->get_xml()
+#2 F:\OneDrive\server\htdocs\ithd-online\test\grid\grid_test.php(20): GridView->__construct(Object(IncidentGrid_Control), 'standart')
+#3 {main}
+  thrown
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 163
+)
+
+ %10
+**********
+---[2015/04/18 05:09:35,324] [ERROR][Incident_DAO] [Base_DAO.error(F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php:27)]---
+ %10Column 'createdon' in field list is ambiguous
+ %10
+**********
+---[2015/04/18 05:09:35,330] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Uncaught exception 'Exception' with message 'Column 'createdon' in field list is ambiguous' in F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php:28
+Stack trace:
+#0 F:\OneDrive\server\htdocs\ithd-online\lib\dao\incident_dao.php(115): Base_DAO->error('Column 'created...')
+#1 F:\OneDrive\server\htdocs\ithd-online\lib\logic\incident_logic.php(43): Incident_DAO->get_dynamic('createdon,descr...', NULL, NULL, NULL)
+#2 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(94): Incident_Logic->get_dynamic('createdon,descr...', NULL, NULL, NULL)
+#3 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(86): BaseGrid_Control->get_items(NULL, NULL, NULL)
+#4 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(80): BaseGrid_Control->load()
+#5 F:\OneDrive\server\htdocs\ithd-online\controls\incident\incident_grid_control.php(24): BaseGrid_Control->__construct(Object(Incident_Logic), 'incident_grid', 'Tickets', Array, 'ticketnumber', NULL, false)
+#6 F:\OneDrive\server\htd
+    [file] => F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php
+    [line] => 28
+)
+
+ %10
+**********
+---[2015/04/18 05:10:33,849] [ERROR][Incident_DAO] [Base_DAO.error(F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php:27)]---
+ %10You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '//LEFT JOIN `customer` `c` ON `i`.`customerid` = `c`.`customerid`
+        WHERE' at line 3
+ %10
+**********
+---[2015/04/18 05:10:33,854] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '//LEFT JOIN `customer` `c` ON `i`.`customerid` = `c`.`customerid`
+        WHERE' at line 3' in F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php:28
+Stack trace:
+#0 F:\OneDrive\server\htdocs\ithd-online\lib\dao\incident_dao.php(115): Base_DAO->error('You have an err...')
+#1 F:\OneDrive\server\htdocs\ithd-online\lib\logic\incident_logic.php(43): Incident_DAO->get_dynamic('createdon,descr...', NULL, NULL, NULL)
+#2 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(94): Incident_Logic->get_dynamic('createdon,descr...', NULL, NULL, NULL)
+#3 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(86): BaseGrid_Control->get_items(NULL, NULL, NULL)
+#4 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(80): BaseGrid_Control->load()
+#5 F:\OneDrive\server\htdocs\ithd-online\controls\in
+    [file] => F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php
+    [line] => 28
+)
+
+ %10
+**********
+---[2015/04/18 17:00:41,350] [FATAL][Incident_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined index: login_customerid
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\incident\incident_control.php
+    [line] => 38
+)
+
+ %10
+**********
+---[2015/04/18 17:00:41,355] [FATAL][CategoryList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined index: login_customerid
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\incident\incident_control.php
+    [line] => 38
+)
+
+ %10
+**********
+---[2015/04/18 17:00:41,357] [FATAL][IncidentStatusList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined index: login_customerid
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\incident\incident_control.php
+    [line] => 38
+)
+
+ %10
+**********
+---[2015/04/18 17:00:41,359] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined index: login_customerid
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\incident\incident_control.php
+    [line] => 38
+)
+
+ %10
+**********
+---[2015/04/18 17:00:41,360] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined index: login_customerid
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\incident\incident_control.php
+    [line] => 38
+)
+
+ %10
+**********
+---[2015/04/18 17:00:55,536] [FATAL][Incident_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined index: login_customerid
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\incident\incident_control.php
+    [line] => 38
+)
+
+ %10
+**********
+---[2015/04/18 17:00:55,542] [FATAL][CategoryList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined index: login_customerid
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\incident\incident_control.php
+    [line] => 38
+)
+
+ %10
+**********
+---[2015/04/18 17:00:55,544] [FATAL][IncidentStatusList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined index: login_customerid
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\incident\incident_control.php
+    [line] => 38
+)
+
+ %10
+**********
+---[2015/04/18 17:00:55,547] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined index: login_customerid
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\incident\incident_control.php
+    [line] => 38
+)
+
+ %10
+**********
+---[2015/04/18 17:00:55,549] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined index: login_customerid
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\incident\incident_control.php
+    [line] => 38
+)
+
+ %10
+**********
+---[2015/04/18 17:01:59,146] [FATAL][Incident_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined index: login_customerid
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\incident\incident_control.php
+    [line] => 38
+)
+
+ %10
+**********
+---[2015/04/18 17:01:59,148] [FATAL][CategoryList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined index: login_customerid
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\incident\incident_control.php
+    [line] => 38
+)
+
+ %10
+**********
+---[2015/04/18 17:01:59,148] [FATAL][IncidentStatusList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined index: login_customerid
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\incident\incident_control.php
+    [line] => 38
+)
+
+ %10
+**********
+---[2015/04/18 17:01:59,149] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined index: login_customerid
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\incident\incident_control.php
+    [line] => 38
+)
+
+ %10
+**********
+---[2015/04/18 17:01:59,150] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined index: login_customerid
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\incident\incident_control.php
+    [line] => 38
+)
+
+ %10
+**********
+---[2015/04/18 17:38:24,173] [FATAL][IncidentList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:38:24,175] [FATAL][Incident_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:38:24,176] [FATAL][CategoryList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:38:24,177] [FATAL][IncidentStatusList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:38:24,177] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:38:24,178] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:38:24,179] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:39:13,455] [FATAL][IncidentList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:39:13,457] [FATAL][Incident_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:39:13,458] [FATAL][CategoryList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:39:13,459] [FATAL][IncidentStatusList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:39:13,460] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:39:13,461] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:39:13,461] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:40:00,780] [FATAL][IncidentList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:40:00,781] [FATAL][Incident_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:40:00,782] [FATAL][CategoryList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:40:00,782] [FATAL][IncidentStatusList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:40:00,783] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:40:00,784] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:40:00,784] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:40:15,317] [FATAL][IncidentList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:40:15,319] [FATAL][Incident_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:40:15,320] [FATAL][CategoryList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:40:15,321] [FATAL][IncidentStatusList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:40:15,322] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:40:15,323] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:40:15,324] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:40:25,344] [FATAL][IncidentList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:40:25,345] [FATAL][Incident_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:40:25,346] [FATAL][CategoryList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:40:25,347] [FATAL][IncidentStatusList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:40:25,347] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:40:25,348] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:40:25,349] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:41:12,605] [FATAL][IncidentList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:41:12,607] [FATAL][Incident_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:41:12,608] [FATAL][CategoryList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:41:12,609] [FATAL][IncidentStatusList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:41:12,610] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:41:12,611] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:41:12,611] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:41:16,298] [FATAL][IncidentList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:41:16,299] [FATAL][Incident_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:41:16,300] [FATAL][CategoryList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:41:16,301] [FATAL][IncidentStatusList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:41:16,301] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:41:16,302] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:41:16,303] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:47:07,949] [FATAL][IncidentList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:47:07,951] [FATAL][Incident_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:47:07,951] [FATAL][CategoryList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:47:07,952] [FATAL][IncidentStatusList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:47:07,953] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:47:07,953] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:47:07,954] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:49:57,884] [FATAL][CategoryList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: CategoryGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:49:57,885] [FATAL][Category_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: CategoryGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:49:57,886] [FATAL][CategoryGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: CategoryGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:49:57,887] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: CategoryGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:49:57,887] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: CategoryGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:50:02,083] [FATAL][CategoryList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: CategoryGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:50:02,084] [FATAL][Category_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: CategoryGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:50:02,085] [FATAL][CategoryGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: CategoryGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:50:02,086] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: CategoryGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:50:02,087] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: CategoryGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:50:10,951] [FATAL][CategoryList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: CategoryGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:50:10,953] [FATAL][Category_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: CategoryGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:50:10,954] [FATAL][CategoryGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: CategoryGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:50:10,954] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: CategoryGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:50:10,955] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: CategoryGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:50:17,875] [FATAL][CategoryList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: CategoryGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:50:17,877] [FATAL][Category_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: CategoryGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:50:17,877] [FATAL][CategoryGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: CategoryGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:50:17,878] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: CategoryGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:50:17,879] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: CategoryGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 129
+)
+
+ %10
+**********
+---[2015/04/18 17:53:53,725] [FATAL][CategoryList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: CategoryGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 137
+)
+
+ %10
+**********
+---[2015/04/18 17:53:53,727] [FATAL][Category_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: CategoryGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 137
+)
+
+ %10
+**********
+---[2015/04/18 17:53:53,728] [FATAL][CategoryGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: CategoryGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 137
+)
+
+ %10
+**********
+---[2015/04/18 17:53:53,729] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: CategoryGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 137
+)
+
+ %10
+**********
+---[2015/04/18 17:53:53,729] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: CategoryGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 137
+)
+
+ %10
+**********
+---[2015/04/18 17:54:09,260] [FATAL][CategoryList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: CategoryGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 137
+)
+
+ %10
+**********
+---[2015/04/18 17:54:09,262] [FATAL][Category_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: CategoryGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 137
+)
+
+ %10
+**********
+---[2015/04/18 17:54:09,263] [FATAL][CategoryGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: CategoryGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 137
+)
+
+ %10
+**********
+---[2015/04/18 17:54:09,266] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: CategoryGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 137
+)
+
+ %10
+**********
+---[2015/04/18 17:54:09,267] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: CategoryGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 137
+)
+
+ %10
+**********
+---[2015/04/18 17:54:12,765] [FATAL][CategoryList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: CategoryGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 137
+)
+
+ %10
+**********
+---[2015/04/18 17:54:12,766] [FATAL][Category_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: CategoryGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 137
+)
+
+ %10
+**********
+---[2015/04/18 17:54:12,767] [FATAL][CategoryGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: CategoryGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 137
+)
+
+ %10
+**********
+---[2015/04/18 17:54:12,768] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: CategoryGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 137
+)
+
+ %10
+**********
+---[2015/04/18 17:54:12,769] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: CategoryGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 137
+)
+
+ %10
+**********
+---[2015/04/18 17:54:14,952] [FATAL][IncidentList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 137
+)
+
+ %10
+**********
+---[2015/04/18 17:54:14,954] [FATAL][Incident_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 137
+)
+
+ %10
+**********
+---[2015/04/18 17:54:14,955] [FATAL][CategoryList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 137
+)
+
+ %10
+**********
+---[2015/04/18 17:54:14,955] [FATAL][IncidentStatusList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 137
+)
+
+ %10
+**********
+---[2015/04/18 17:54:14,956] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 137
+)
+
+ %10
+**********
+---[2015/04/18 17:54:14,957] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 137
+)
+
+ %10
+**********
+---[2015/04/18 17:54:14,958] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 137
+)
+
+ %10
+**********
+---[2015/04/18 17:54:16,611] [FATAL][IncidentList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 137
+)
+
+ %10
+**********
+---[2015/04/18 17:54:16,612] [FATAL][Incident_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 137
+)
+
+ %10
+**********
+---[2015/04/18 17:54:16,613] [FATAL][CategoryList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 137
+)
+
+ %10
+**********
+---[2015/04/18 17:54:16,614] [FATAL][IncidentStatusList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 137
+)
+
+ %10
+**********
+---[2015/04/18 17:54:16,614] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 137
+)
+
+ %10
+**********
+---[2015/04/18 17:54:16,615] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 137
+)
+
+ %10
+**********
+---[2015/04/18 17:54:16,616] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined property: IncidentGrid_Control::$delete_url
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 137
+)
+
+ %10
+**********
+---[2015/04/18 18:02:58,635] [ERROR][Category_DAO] [Base_DAO.error(F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php:27)]---
+ %10You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'index,title,categoryid 
+        FROM `category` `i`
+        WHERE 1
+		ORDER B' at line 1
+ %10
+**********
+---[2015/04/18 18:02:58,640] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'index,title,categoryid 
+        FROM `category` `i`
+        WHERE 1
+		ORDER B' at line 1' in F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php:28
+Stack trace:
+#0 F:\OneDrive\server\htdocs\ithd-online\lib\dao\category_dao.php(77): Base_DAO->error('You have an err...')
+#1 F:\OneDrive\server\htdocs\ithd-online\lib\logic\category_logic.php(31): Category_DAO->get_dynamic('index,title,cat...', NULL, NULL, NULL)
+#2 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(87): Category_Logic->get_dynamic('index,title,cat...', NULL, NULL, NULL)
+#3 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(79): BaseGrid_Control->get_items(NULL, NULL, NULL)
+#4 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(70): BaseGrid_Control->load()
+#5 F:\OneDrive\server\htdocs\ithd-online\controls\inc
+    [file] => F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php
+    [line] => 28
+)
+
+ %10
+**********
+---[2015/04/18 18:02:58,641] [FATAL][CategoryList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'index,title,categoryid 
+        FROM `category` `i`
+        WHERE 1
+		ORDER B' at line 1' in F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php:28
+Stack trace:
+#0 F:\OneDrive\server\htdocs\ithd-online\lib\dao\category_dao.php(77): Base_DAO->error('You have an err...')
+#1 F:\OneDrive\server\htdocs\ithd-online\lib\logic\category_logic.php(31): Category_DAO->get_dynamic('index,title,cat...', NULL, NULL, NULL)
+#2 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(87): Category_Logic->get_dynamic('index,title,cat...', NULL, NULL, NULL)
+#3 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(79): BaseGrid_Control->get_items(NULL, NULL, NULL)
+#4 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(70): BaseGrid_Control->load()
+#5 F:\OneDrive\server\htdocs\ithd-online\controls\inc
+    [file] => F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php
+    [line] => 28
+)
+
+ %10
+**********
+---[2015/04/18 18:02:58,641] [FATAL][Category_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'index,title,categoryid 
+        FROM `category` `i`
+        WHERE 1
+		ORDER B' at line 1' in F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php:28
+Stack trace:
+#0 F:\OneDrive\server\htdocs\ithd-online\lib\dao\category_dao.php(77): Base_DAO->error('You have an err...')
+#1 F:\OneDrive\server\htdocs\ithd-online\lib\logic\category_logic.php(31): Category_DAO->get_dynamic('index,title,cat...', NULL, NULL, NULL)
+#2 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(87): Category_Logic->get_dynamic('index,title,cat...', NULL, NULL, NULL)
+#3 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(79): BaseGrid_Control->get_items(NULL, NULL, NULL)
+#4 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(70): BaseGrid_Control->load()
+#5 F:\OneDrive\server\htdocs\ithd-online\controls\inc
+    [file] => F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php
+    [line] => 28
+)
+
+ %10
+**********
+---[2015/04/18 18:02:58,642] [FATAL][CategoryGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'index,title,categoryid 
+        FROM `category` `i`
+        WHERE 1
+		ORDER B' at line 1' in F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php:28
+Stack trace:
+#0 F:\OneDrive\server\htdocs\ithd-online\lib\dao\category_dao.php(77): Base_DAO->error('You have an err...')
+#1 F:\OneDrive\server\htdocs\ithd-online\lib\logic\category_logic.php(31): Category_DAO->get_dynamic('index,title,cat...', NULL, NULL, NULL)
+#2 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(87): Category_Logic->get_dynamic('index,title,cat...', NULL, NULL, NULL)
+#3 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(79): BaseGrid_Control->get_items(NULL, NULL, NULL)
+#4 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(70): BaseGrid_Control->load()
+#5 F:\OneDrive\server\htdocs\ithd-online\controls\inc
+    [file] => F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php
+    [line] => 28
+)
+
+ %10
+**********
+---[2015/04/18 18:03:04,289] [ERROR][Category_DAO] [Base_DAO.error(F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php:27)]---
+ %10You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'index,title,categoryid 
+        FROM `category` `i`
+        WHERE 1
+		ORDER B' at line 1
+ %10
+**********
+---[2015/04/18 18:03:04,294] [FATAL][CategoryList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'index,title,categoryid 
+        FROM `category` `i`
+        WHERE 1
+		ORDER B' at line 1' in F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php:28
+Stack trace:
+#0 F:\OneDrive\server\htdocs\ithd-online\lib\dao\category_dao.php(77): Base_DAO->error('You have an err...')
+#1 F:\OneDrive\server\htdocs\ithd-online\lib\logic\category_logic.php(31): Category_DAO->get_dynamic('index,title,cat...', NULL, NULL, NULL)
+#2 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(87): Category_Logic->get_dynamic('index,title,cat...', NULL, NULL, NULL)
+#3 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(79): BaseGrid_Control->get_items(NULL, NULL, NULL)
+#4 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(70): BaseGrid_Control->load()
+#5 F:\OneDrive\server\htdocs\ithd-online\controls\inc
+    [file] => F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php
+    [line] => 28
+)
+
+ %10
+**********
+---[2015/04/18 18:03:04,294] [FATAL][Category_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'index,title,categoryid 
+        FROM `category` `i`
+        WHERE 1
+		ORDER B' at line 1' in F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php:28
+Stack trace:
+#0 F:\OneDrive\server\htdocs\ithd-online\lib\dao\category_dao.php(77): Base_DAO->error('You have an err...')
+#1 F:\OneDrive\server\htdocs\ithd-online\lib\logic\category_logic.php(31): Category_DAO->get_dynamic('index,title,cat...', NULL, NULL, NULL)
+#2 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(87): Category_Logic->get_dynamic('index,title,cat...', NULL, NULL, NULL)
+#3 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(79): BaseGrid_Control->get_items(NULL, NULL, NULL)
+#4 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(70): BaseGrid_Control->load()
+#5 F:\OneDrive\server\htdocs\ithd-online\controls\inc
+    [file] => F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php
+    [line] => 28
+)
+
+ %10
+**********
+---[2015/04/18 18:03:04,295] [FATAL][CategoryGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'index,title,categoryid 
+        FROM `category` `i`
+        WHERE 1
+		ORDER B' at line 1' in F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php:28
+Stack trace:
+#0 F:\OneDrive\server\htdocs\ithd-online\lib\dao\category_dao.php(77): Base_DAO->error('You have an err...')
+#1 F:\OneDrive\server\htdocs\ithd-online\lib\logic\category_logic.php(31): Category_DAO->get_dynamic('index,title,cat...', NULL, NULL, NULL)
+#2 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(87): Category_Logic->get_dynamic('index,title,cat...', NULL, NULL, NULL)
+#3 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(79): BaseGrid_Control->get_items(NULL, NULL, NULL)
+#4 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(70): BaseGrid_Control->load()
+#5 F:\OneDrive\server\htdocs\ithd-online\controls\inc
+    [file] => F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php
+    [line] => 28
+)
+
+ %10
+**********
+---[2015/04/18 18:04:15,356] [ERROR][Category_DAO] [Base_DAO.error(F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php:27)]---
+ %10You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'index,title,categoryid 
+        FROM category
+        WHERE 1
+		ORDER BY 1
+	' at line 1
+ %10
+**********
+---[2015/04/18 18:04:15,360] [FATAL][CategoryList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'index,title,categoryid 
+        FROM category
+        WHERE 1
+		ORDER BY 1
+	' at line 1' in F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php:28
+Stack trace:
+#0 F:\OneDrive\server\htdocs\ithd-online\lib\dao\category_dao.php(77): Base_DAO->error('You have an err...')
+#1 F:\OneDrive\server\htdocs\ithd-online\lib\logic\category_logic.php(31): Category_DAO->get_dynamic('index,title,cat...', NULL, NULL, NULL)
+#2 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(87): Category_Logic->get_dynamic('index,title,cat...', NULL, NULL, NULL)
+#3 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(79): BaseGrid_Control->get_items(NULL, NULL, NULL)
+#4 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(70): BaseGrid_Control->load()
+#5 F:\OneDrive\server\htdocs\ithd-online\controls\inc
+    [file] => F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php
+    [line] => 28
+)
+
+ %10
+**********
+---[2015/04/18 18:04:15,361] [FATAL][Category_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'index,title,categoryid 
+        FROM category
+        WHERE 1
+		ORDER BY 1
+	' at line 1' in F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php:28
+Stack trace:
+#0 F:\OneDrive\server\htdocs\ithd-online\lib\dao\category_dao.php(77): Base_DAO->error('You have an err...')
+#1 F:\OneDrive\server\htdocs\ithd-online\lib\logic\category_logic.php(31): Category_DAO->get_dynamic('index,title,cat...', NULL, NULL, NULL)
+#2 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(87): Category_Logic->get_dynamic('index,title,cat...', NULL, NULL, NULL)
+#3 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(79): BaseGrid_Control->get_items(NULL, NULL, NULL)
+#4 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(70): BaseGrid_Control->load()
+#5 F:\OneDrive\server\htdocs\ithd-online\controls\inc
+    [file] => F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php
+    [line] => 28
+)
+
+ %10
+**********
+---[2015/04/18 18:04:15,362] [FATAL][CategoryGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'index,title,categoryid 
+        FROM category
+        WHERE 1
+		ORDER BY 1
+	' at line 1' in F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php:28
+Stack trace:
+#0 F:\OneDrive\server\htdocs\ithd-online\lib\dao\category_dao.php(77): Base_DAO->error('You have an err...')
+#1 F:\OneDrive\server\htdocs\ithd-online\lib\logic\category_logic.php(31): Category_DAO->get_dynamic('index,title,cat...', NULL, NULL, NULL)
+#2 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(87): Category_Logic->get_dynamic('index,title,cat...', NULL, NULL, NULL)
+#3 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(79): BaseGrid_Control->get_items(NULL, NULL, NULL)
+#4 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(70): BaseGrid_Control->load()
+#5 F:\OneDrive\server\htdocs\ithd-online\controls\inc
+    [file] => F:\OneDrive\server\htdocs\ithd-online\lib\dao\base_dao.php
+    [line] => 28
+)
+
+ %10
+**********
+---[2015/04/18 18:04:53,555] [FATAL][CategoryList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Uncaught exception 'ReflectionException' with message 'Property `index` does not exist' in F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php:164
+Stack trace:
+#0 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(164): ReflectionClass->getProperty('`index`')
+#1 F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php(13): BaseGrid_Control->get_xml()
+#2 F:\OneDrive\server\htdocs\ithd-online\views\admin\entities\category.php(22): GridView->__construct(Object(CategoryGrid_Control), 'standart')
+#3 {main}
+  thrown
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 164
+)
+
+ %10
+**********
+---[2015/04/18 18:04:53,557] [FATAL][Category_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Uncaught exception 'ReflectionException' with message 'Property `index` does not exist' in F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php:164
+Stack trace:
+#0 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(164): ReflectionClass->getProperty('`index`')
+#1 F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php(13): BaseGrid_Control->get_xml()
+#2 F:\OneDrive\server\htdocs\ithd-online\views\admin\entities\category.php(22): GridView->__construct(Object(CategoryGrid_Control), 'standart')
+#3 {main}
+  thrown
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 164
+)
+
+ %10
+**********
+---[2015/04/18 18:04:53,558] [FATAL][CategoryGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Uncaught exception 'ReflectionException' with message 'Property `index` does not exist' in F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php:164
+Stack trace:
+#0 F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php(164): ReflectionClass->getProperty('`index`')
+#1 F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php(13): BaseGrid_Control->get_xml()
+#2 F:\OneDrive\server\htdocs\ithd-online\views\admin\entities\category.php(22): GridView->__construct(Object(CategoryGrid_Control), 'standart')
+#3 {main}
+  thrown
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\base_grid_control.php
+    [line] => 164
+)
+
+ %10
+**********
+---[2015/04/18 18:59:56,967] [FATAL][IncidentList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 2
+    [message] => XSLTProcessor::transformToXml(): XPath evaluation returned no result.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 39
+)
+
+ %10
+**********
+---[2015/04/18 18:59:56,969] [FATAL][Incident_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 2
+    [message] => XSLTProcessor::transformToXml(): XPath evaluation returned no result.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 39
+)
+
+ %10
+**********
+---[2015/04/18 18:59:56,970] [FATAL][CategoryList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 2
+    [message] => XSLTProcessor::transformToXml(): XPath evaluation returned no result.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 39
+)
+
+ %10
+**********
+---[2015/04/18 18:59:56,971] [FATAL][IncidentStatusList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 2
+    [message] => XSLTProcessor::transformToXml(): XPath evaluation returned no result.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 39
+)
+
+ %10
+**********
+---[2015/04/18 18:59:56,971] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 2
+    [message] => XSLTProcessor::transformToXml(): XPath evaluation returned no result.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 39
+)
+
+ %10
+**********
+---[2015/04/18 18:59:56,972] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 2
+    [message] => XSLTProcessor::transformToXml(): XPath evaluation returned no result.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 39
+)
+
+ %10
+**********
+---[2015/04/18 18:59:56,973] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 2
+    [message] => XSLTProcessor::transformToXml(): XPath evaluation returned no result.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 39
+)
+
+ %10
+**********
+---[2015/04/18 19:00:12,144] [FATAL][IncidentList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:00:12,145] [FATAL][Incident_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:00:12,146] [FATAL][CategoryList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:00:12,147] [FATAL][IncidentStatusList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:00:12,148] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:00:12,149] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:00:59,065] [FATAL][IncidentList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 2
+    [message] => XSLTProcessor::transformToXml(): XPath evaluation returned no result.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 39
+)
+
+ %10
+**********
+---[2015/04/18 19:00:59,069] [FATAL][Incident_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 2
+    [message] => XSLTProcessor::transformToXml(): XPath evaluation returned no result.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 39
+)
+
+ %10
+**********
+---[2015/04/18 19:00:59,073] [FATAL][CategoryList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 2
+    [message] => XSLTProcessor::transformToXml(): XPath evaluation returned no result.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 39
+)
+
+ %10
+**********
+---[2015/04/18 19:00:59,074] [FATAL][IncidentStatusList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 2
+    [message] => XSLTProcessor::transformToXml(): XPath evaluation returned no result.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 39
+)
+
+ %10
+**********
+---[2015/04/18 19:00:59,076] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 2
+    [message] => XSLTProcessor::transformToXml(): XPath evaluation returned no result.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 39
+)
+
+ %10
+**********
+---[2015/04/18 19:00:59,078] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 2
+    [message] => XSLTProcessor::transformToXml(): XPath evaluation returned no result.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 39
+)
+
+ %10
+**********
+---[2015/04/18 19:00:59,079] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 2
+    [message] => XSLTProcessor::transformToXml(): XPath evaluation returned no result.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 39
+)
+
+ %10
+**********
+---[2015/04/18 19:02:05,830] [FATAL][IncidentList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 2
+    [message] => XSLTProcessor::transformToXml(): XPath evaluation returned no result.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 39
+)
+
+ %10
+**********
+---[2015/04/18 19:02:05,837] [FATAL][Incident_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 2
+    [message] => XSLTProcessor::transformToXml(): XPath evaluation returned no result.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 39
+)
+
+ %10
+**********
+---[2015/04/18 19:02:05,838] [FATAL][CategoryList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 2
+    [message] => XSLTProcessor::transformToXml(): XPath evaluation returned no result.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 39
+)
+
+ %10
+**********
+---[2015/04/18 19:02:05,839] [FATAL][IncidentStatusList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 2
+    [message] => XSLTProcessor::transformToXml(): XPath evaluation returned no result.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 39
+)
+
+ %10
+**********
+---[2015/04/18 19:02:05,839] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 2
+    [message] => XSLTProcessor::transformToXml(): XPath evaluation returned no result.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 39
+)
+
+ %10
+**********
+---[2015/04/18 19:02:05,840] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 2
+    [message] => XSLTProcessor::transformToXml(): XPath evaluation returned no result.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 39
+)
+
+ %10
+**********
+---[2015/04/18 19:02:05,841] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 2
+    [message] => XSLTProcessor::transformToXml(): XPath evaluation returned no result.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 39
+)
+
+ %10
+**********
+---[2015/04/18 19:02:28,773] [FATAL][IncidentList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:02:28,775] [FATAL][Incident_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:02:28,775] [FATAL][CategoryList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:02:28,776] [FATAL][IncidentStatusList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:02:28,777] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:02:28,777] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:03:04,251] [FATAL][IncidentList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:03:04,253] [FATAL][Incident_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:03:04,254] [FATAL][CategoryList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:03:04,255] [FATAL][IncidentStatusList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:03:04,256] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:03:04,257] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:04:37,810] [FATAL][IncidentList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:04:37,812] [FATAL][Incident_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:04:37,812] [FATAL][CategoryList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:04:37,813] [FATAL][IncidentStatusList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:04:37,814] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:04:37,815] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:04:43,732] [FATAL][IncidentList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:04:43,733] [FATAL][Incident_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:04:43,734] [FATAL][CategoryList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:04:43,735] [FATAL][IncidentStatusList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:04:43,735] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:04:43,736] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:04:57,075] [FATAL][IncidentList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:04:57,077] [FATAL][Incident_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:04:57,078] [FATAL][CategoryList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:04:57,079] [FATAL][IncidentStatusList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:04:57,079] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:04:57,080] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:05:47,377] [FATAL][IncidentList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:05:47,379] [FATAL][Incident_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:05:47,380] [FATAL][CategoryList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:05:47,380] [FATAL][IncidentStatusList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:05:47,381] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:05:47,382] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:05:48,274] [FATAL][IncidentList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:05:48,276] [FATAL][Incident_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:05:48,276] [FATAL][CategoryList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:05:48,277] [FATAL][IncidentStatusList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:05:48,278] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:05:48,278] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:06:11,302] [FATAL][IncidentList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:06:11,303] [FATAL][Incident_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:06:11,304] [FATAL][CategoryList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:06:11,305] [FATAL][IncidentStatusList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:06:11,306] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:06:11,306] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:06:23,809] [FATAL][IncidentList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:06:23,811] [FATAL][Incident_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:06:23,811] [FATAL][CategoryList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:06:23,812] [FATAL][IncidentStatusList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:06:23,813] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:06:23,813] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:07:11,367] [FATAL][IncidentList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:07:11,369] [FATAL][Incident_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:07:11,369] [FATAL][CategoryList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:07:11,370] [FATAL][IncidentStatusList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:07:11,371] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:07:11,371] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:07:44,529] [FATAL][IncidentList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:07:44,531] [FATAL][Incident_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:07:44,532] [FATAL][CategoryList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:07:44,532] [FATAL][IncidentStatusList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:07:44,533] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:07:44,534] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:24:24,449] [FATAL][IncidentList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:24:24,451] [FATAL][Incident_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:24:24,452] [FATAL][CategoryList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:24:24,453] [FATAL][IncidentStatusList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:24:24,453] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 19:24:24,454] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 256
+    [message] => XSL transformation failed.
+    [file] => F:\OneDrive\server\htdocs\ithd-online\views\common\grid_view.php
+    [line] => 42
+)
+
+ %10
+**********
+---[2015/04/18 20:29:19,539] [FATAL][IncidentGrid_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:62)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined variable: _SESSION
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\incident\incident_grid_control.php
+    [line] => 23
+)
+
+ %10
+**********

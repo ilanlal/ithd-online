@@ -1,0 +1,95 @@
+fieldset {
+    width:95%; 
+}
+
+fieldset .field {
+    display: inline-table;
+    width: 100%;
+    border: gray 1px solid;
+    margin: 0 0 5px 0;
+    vertical-align: middle;
+    border: gray 1px outset;
+}
+
+
+fieldset label {
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+    padding-left: 2px;
+    padding-right: 2px;
+    height: 20px;
+    width: 35%;
+    font-size: 14px;
+    font-weight: normal;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+fieldset input {
+    display: block;
+    text-align: left;
+    width: 98%;
+    height: 23px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+fieldset select {
+    display: block;
+    text-align: left;
+    width: 98%;
+    height: 23px;
+    padding-left: 2px;
+    padding-right: 2px;
+    cursor: pointer;
+}
+
+fieldset input[type=url] {
+    
+    color: blue;
+    
+}
+
+fieldset input[type=number] {
+    
+    color: blue;
+    
+}
+
+fieldset input[type=password] {
+    color: blue;
+}
+
+fieldset input[type=tel] {
+    color: blue;
+}
+
+fieldset input[type=email] {
+}
+
+fieldset input[type=text] {
+    
+}
+
+fieldset input[type=color] {
+    border: none;
+    cursor: pointer;
+}
+
+fieldset input[type=checkbox] {
+    cursor: pointer;
+}
+
+fieldset textarea {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    height: 125px;
+    width: 100%;
+    font-size: 16px;
+}
+
+
+fieldset img {
+}

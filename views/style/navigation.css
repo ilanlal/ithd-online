@@ -1,0 +1,107 @@
+
+nav {
+    background-color: white;
+    text-align: center;
+    vertical-align: middle;
+    display: block;
+    width: 100%;
+}
+
+nav .logo { 
+    display: block;
+    background-color: black;
+    padding: 5px;
+    margin: 3px;
+}
+
+nav .logo img {      
+    width: 100%;
+}
+
+nav .menu {
+    width: 100%;
+}
+
+.tile a { 
+    display: table;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+
+nav .tile {
+    
+    display: inline-block;
+    margin: 2px;    
+}
+
+.tile img:hover,
+.tile a:hover {
+    background-color: white;
+    transition: all .20s ease-in-out;
+    -moz-transition: all .20s ease-in-out;
+    -webkit-transition: all .20s ease-in-out;
+    filter: invert(0%);
+    // Browser Specific
+    -webkit-filter: invert(0%);
+    -moz-filter: invert(0%);
+    -o-filter: invert(0%);
+    -ms-filter: invert(0%);
+}
+
+.tile img {
+    width: 90px;
+}
+
+
+.brown {
+    background-color: brown;
+}
+
+.brown img {
+    filter: invert(100%);
+    // Browser Specific
+    -webkit-filter: invert(100%);
+    -moz-filter: invert(100%);
+    -o-filter: invert(100%);
+    -ms-filter: invert(100%);
+}
+
+.yellow {
+    background-color: yellow;
+    color: black;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.blue img {
+  filter: invert(100%);
+    // Browser Specific
+    -webkit-filter: invert(100%);
+    -moz-filter: invert(100%);
+    -o-filter: invert(100%);
+    -ms-filter: invert(100%);
+}
+
+.green {
+   background-color: green; 
+}
+
+.green img {
+   
+    filter: invert(100%);
+    // Browser Specific
+    -webkit-filter: invert(100%);
+    -moz-filter: invert(100%);
+    -o-filter: invert(100%);
+    -ms-filter:  invert(100%);
+}
+

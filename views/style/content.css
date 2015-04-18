@@ -1,0 +1,115 @@
+.content-area {
+    text-align: center;
+    vertical-align: top;
+    display: block;
+    width: 100%;
+}
+
+.content-area h1 {
+    margin: 0;
+}
+
+.content-group {
+    
+}
+
+.content {
+    position: relative;
+    height: 42px;
+    transition: all .40s ease-in-out;
+    -moz-transition: all .40s ease-in-out;
+    -webkit-transition: all .40s ease-in-out;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    background-color: #006699;
+    color: white;
+    margin-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.content:hover {
+    background-color: whitesmoke;
+    color: black;
+   
+}
+.content.inlarge {
+   background-color: yellow;
+   height: 100%; 
+}
+
+.content.inlarge h2 {
+    color: black;
+}
+
+.content.inlarge h3 {
+    color: black;
+    
+}
+
+.content h1 {
+    margin: 0;
+}
+
+.content h2 {
+    margin: 10px;
+    white-space: normal;
+}
+
+.content h3 {
+    font-size: 16px;
+    white-space: normal;
+    margin: 5px;
+    display: list-item;
+    font-weight: normal;
+    margin-left: 25px;
+    padding-left: 5px;
+}
+
+.content h4 {
+   margin: 0;
+}
+
+
+
+.content a {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0;
+    padding: 5px;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border: black 1px solid;
+}
+
+.content a:hover {
+    background-color: green;
+    
+}
+
+section.free-content {
+    margin-top: 5px;
+    padding: 5px;
+    background-color: graytext;
+    width: 99%;
+}
+
+.free-content h2 {
+    text-align: justify;
+    color: white;
+    margin: 0;
+    padding: 5px;
+}
+
+.free-content p {
+    text-align: justify;
+    margin: 0 0 0 0;
+    color: white;
+    padding: 5px;
+}

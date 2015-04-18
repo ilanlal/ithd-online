@@ -1,0 +1,1111 @@
+---[2015/04/12 09:15:10,495] [FATAL][FormsList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Call to undefined method Form_Control::delete_row()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\admin\forms-list.php
+    [line] => 29
+)
+
+ %10
+**********
+---[2015/04/12 09:15:10,505] [FATAL][Form_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Call to undefined method Form_Control::delete_row()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\admin\forms-list.php
+    [line] => 29
+)
+
+ %10
+**********
+---[2015/04/12 09:18:34,191] [FATAL][FormsList_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Call to undefined method Form_Control::delete_row()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\admin\forms-list.php
+    [line] => 29
+)
+
+ %10
+**********
+---[2015/04/12 09:18:34,195] [FATAL][Form_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Call to undefined method Form_Control::delete_row()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\admin\forms-list.php
+    [line] => 29
+)
+
+ %10
+**********
+---[2015/04/12 09:34:27,416] [FATAL][Form_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 79
+)
+
+ %10
+**********
+---[2015/04/12 09:34:27,417] [FATAL][Submition_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 79
+)
+
+ %10
+**********
+---[2015/04/12 09:34:27,418] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 79
+)
+
+ %10
+**********
+---[2015/04/12 09:37:17,242] [FATAL][Form_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => ReflectionProperty::setValue() expects parameter 1 to be object, null given
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 87
+)
+
+ %10
+**********
+---[2015/04/12 09:37:17,244] [FATAL][Submition_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => ReflectionProperty::setValue() expects parameter 1 to be object, null given
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 87
+)
+
+ %10
+**********
+---[2015/04/12 09:37:17,244] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => ReflectionProperty::setValue() expects parameter 1 to be object, null given
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 87
+)
+
+ %10
+**********
+---[2015/04/12 09:54:20,387] [FATAL][Form_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => ReflectionProperty::getValue() expects parameter 1 to be object, null given
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 96
+)
+
+ %10
+**********
+---[2015/04/12 09:54:20,389] [FATAL][Submition_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => ReflectionProperty::getValue() expects parameter 1 to be object, null given
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 96
+)
+
+ %10
+**********
+---[2015/04/12 09:54:20,390] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => ReflectionProperty::getValue() expects parameter 1 to be object, null given
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 96
+)
+
+ %10
+**********
+---[2015/04/12 10:01:57,122] [FATAL][Form_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:01:57,126] [FATAL][Submition_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:01:57,127] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:02:01,213] [FATAL][Form_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:02:01,215] [FATAL][Submition_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:02:01,215] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:02:40,360] [FATAL][Form_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 82
+)
+
+ %10
+**********
+---[2015/04/12 10:02:40,362] [FATAL][Submition_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 82
+)
+
+ %10
+**********
+---[2015/04/12 10:02:40,362] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 82
+)
+
+ %10
+**********
+---[2015/04/12 10:03:42,419] [FATAL][ContactUs_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined variable: form
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 19
+)
+
+ %10
+**********
+---[2015/04/12 10:03:42,421] [FATAL][Submition_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined variable: form
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 19
+)
+
+ %10
+**********
+---[2015/04/12 10:03:42,421] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 8
+    [message] => Undefined variable: form
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 19
+)
+
+ %10
+**********
+---[2015/04/12 10:07:24,849] [FATAL][ContactUs_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Call to undefined method ContactUs_Control::generate_html_fields()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\customer\forms\contact-us.php
+    [line] => 68
+)
+
+ %10
+**********
+---[2015/04/12 10:07:24,851] [FATAL][Submition_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Call to undefined method ContactUs_Control::generate_html_fields()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\customer\forms\contact-us.php
+    [line] => 68
+)
+
+ %10
+**********
+---[2015/04/12 10:09:35,846] [FATAL][ContactUs_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Call to undefined method ContactUs_Control::generate_html_fields()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\customer\forms\contact-us.php
+    [line] => 68
+)
+
+ %10
+**********
+---[2015/04/12 10:09:35,848] [FATAL][Submition_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 1
+    [message] => Call to undefined method ContactUs_Control::generate_html_fields()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\customer\forms\contact-us.php
+    [line] => 68
+)
+
+ %10
+**********
+---[2015/04/12 10:09:49,943] [FATAL][ContactUs_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:09:49,944] [FATAL][Submition_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:09:49,945] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:11:07,924] [FATAL][ContactUs_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:11:07,925] [FATAL][Submition_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:11:07,926] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:11:13,072] [FATAL][ContactUs_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:11:13,074] [FATAL][Submition_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:11:13,075] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:11:59,114] [FATAL][ContactUs_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:11:59,116] [FATAL][Submition_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:11:59,116] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:12:30,953] [FATAL][ContactUs_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:12:30,955] [FATAL][Submition_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:12:30,956] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:12:34,574] [FATAL][ContactUs_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:12:34,576] [FATAL][Submition_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:12:34,576] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:12:54,487] [FATAL][ContactUs_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:12:54,489] [FATAL][Submition_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:12:54,489] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:13:30,940] [FATAL][ContactUs_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:13:30,941] [FATAL][Submition_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:13:30,942] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:14:08,740] [FATAL][ContactUs_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:14:08,742] [FATAL][Submition_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:14:08,743] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:14:09,981] [FATAL][ContactUs_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:14:09,982] [FATAL][Submition_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:14:09,983] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:14:20,273] [FATAL][ContactUs_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:14:20,275] [FATAL][Submition_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:14:20,275] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:14:26,375] [FATAL][ContactUs_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:14:26,377] [FATAL][Submition_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:14:26,378] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:28:59,063] [FATAL][Form_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:28:59,065] [FATAL][Submition_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:28:59,066] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:30:10,700] [FATAL][Form_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:30:10,702] [FATAL][Submition_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:30:10,702] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:30:23,109] [FATAL][Form_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:30:23,110] [FATAL][Submition_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:30:23,111] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:30:27,582] [FATAL][Form_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:30:27,584] [FATAL][Submition_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:30:27,585] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:31:42,684] [FATAL][Form_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:31:42,685] [FATAL][Submition_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:31:42,686] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:31:54,991] [FATAL][Form_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:31:54,992] [FATAL][Submition_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:31:54,993] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:31:55,998] [FATAL][Form_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:31:55,999] [FATAL][Submition_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:31:56,000] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:32:07,963] [FATAL][Form_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:32:07,965] [FATAL][Submition_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:32:07,965] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:32:19,849] [FATAL][Form_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:32:19,850] [FATAL][Submition_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:32:19,851] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:35:05,070] [FATAL][Form_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:35:05,071] [FATAL][Submition_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:35:05,072] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:35:11,594] [FATAL][Form_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:35:11,595] [FATAL][Submition_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:35:11,596] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:36:26,182] [FATAL][Form_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:36:26,184] [FATAL][Submition_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********
+---[2015/04/12 10:36:26,184] [FATAL][Base_Control] [Base_Control.fatal_handler(F:\OneDrive\server\htdocs\ithd-online\controls\base_control.php:60)]---
+ %10Array
+(
+    [type] => 2
+    [message] => Invalid argument supplied for foreach()
+    [file] => F:\OneDrive\server\htdocs\ithd-online\controls\customer\submition_control.php
+    [line] => 94
+)
+
+ %10
+**********

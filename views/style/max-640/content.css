@@ -1,0 +1,65 @@
+/*** 640px ***/
+.content-area {
+    
+}
+
+.content-area h1 {
+    
+}
+
+.content-group {
+    display: table-row;
+}
+
+.content {
+    display: table-cell;
+    border: white 3px solid;
+    width: 20%;
+    white-space: normal;
+    overflow: visible;
+    text-overflow: ellipsis-word;
+    height: 200px;
+    font-size: 16px;
+}
+
+.content:hover {
+    background-color: #006699;
+    color: white;
+}
+
+.content.inlarge {
+    background-color: #006699;
+    color: white;
+    height: auto; 
+    text-align: left;
+}
+
+
+.content.inlarge h2 {
+    
+    color: white;
+}
+
+.content.inlarge h3 {
+    color: white;
+}
+
+.content .content-button {
+   display:  block;
+   vertical-align: bottom;
+   padding: 20px;
+}
+
+.content a {
+    display: table;
+    position: absolute;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0;
+    padding: 5px;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border: black 1px solid;
+}

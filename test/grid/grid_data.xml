@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grid id="customer_grid" title="Customers" page="1" key="id"
+ new_url="/view/admin/incident/-1" delete_ule="" edit_url="">
+    <cols>
+        <col schema_name="first_name" display_name="First Name" width="80px" type="text" />
+        <col schema_name="last_name" display_name="Last Name" width="80px" type="text" />
+        <col schema_name="created_on" display_name="Created ON" width="150px" type="datetime" />
+		<col schema_name="col2" display_name="Col 4" width="150px" type="datetime" />
+		<col schema_name="col3" display_name="This is a very long header with in 150 pixelas" width="150px" type="datetime" />
+    </cols>
+    <rows>
+        <row id="1" open_url="#">
+            <cell name="first_name">Ilan</cell>
+            <cell name="last_name">Laloum</cell>
+            <cell name="createdon">27/03/2015</cell>
+			<cell name="col2">Very long textthat go out of the box and out of the screen......</cell>
+			<cell name="col3"></cell>
+        </row>
+        <row id="2" open_url="#">
+            <cell name="first_name">Ilan 1</cell>
+            <cell name="last_name">Laloum 1</cell>
+            <cell name="createdon">27/03/2014</cell>
+			<cell name="col2">1</cell>
+			<cell name="col3">1</cell>
+        </row>
+        <row id="3" open_url="#">
+            <cell name="first_name">Ilan 2</cell>
+            <cell name="last_name">Laloum 2</cell>
+            <cell name="createdon">27/03/2013</cell>
+			<cell name="col2">2</cell>
+			<cell name="col3">2</cell>
+        </row>
+        <row id="4" open_url="#">
+            <cell name="first_name">Ilan 3</cell>
+            <cell name="last_name">Laloum 3</cell>
+            <cell name="createdon">27/03/2012</cell>
+			<cell name="col2"></cell>
+			<cell name="col3"></cell>
+        </row>
+    </rows>
+</grid>

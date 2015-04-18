@@ -1,0 +1,16 @@
+{
+    "name": "vendor/ithd-online",
+    "description": "Description of project ithd-online.",
+    "authors": [
+        {
+            "name": "Ilan",
+            "email": "isramail@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "dev-master"
+    },
+    "require-dev": {
+        "apache/log4php": "dev-master"
+    }
+}

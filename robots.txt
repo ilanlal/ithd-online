@@ -1,0 +1,25 @@
+# robots.txt for http://www.ithd-online.com/
+
+User-agent: *
+Disallow: /tmp/ # these will soon disappear
+Disallow: /logs/ # these will soon disappear
+Disallow: /lib/
+Disallow: /cache/
+Disallow: /control/
+Disallow: /vendor/
+Disallow: /scripts/
+Disallow: /parts/
+Disallow: /fonts/
+Disallow: /customer/
+Disallow: /admin/
+Disallow: /controls/
+Disallow: /index.html
+Disallow: /test.html
+Disallow: /info.php
+Disallow: /terms-of-service.php
+Disallow: /contact-us.php
+Disallow: /captcha.php
+Disallow: /iframe.html
+
+
+

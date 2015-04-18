@@ -1,0 +1,32 @@
+body {
+    margin: 0 15% 0 15%;
+}
+
+fieldset {
+    font-weight: bold;
+    padding-top: 0;
+    display: table;
+}
+
+fieldset legend {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset .field {
+    display: table;
+    width: 100%;
+}
+
+
+fieldset label {
+    display:table-cell;
+    float: left;
+}
+
+fieldset input {
+    display:table-cell;
+    
+    width: 60%;
+    float: right;
+}
