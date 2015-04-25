@@ -1,38 +1,28 @@
 <?php
 session_start();
 require_once $_SERVER['DOCUMENT_ROOT'] . '/controls/incident/incident_control.php';
-require_once $_SERVER['DOCUMENT_ROOT'] . '/controls/incident/category_list_control.php';
-require_once $_SERVER['DOCUMENT_ROOT'] . '/controls/incident/incident_status_list_control.php';
-
-if (!isset($_SESSION[Base_Control::SESSION_ADMIN_EMAIL])) {
-    $base = new Base_Control();
-    header("Location: " . $base->company_path . "/views/admin/user/login#login");
-}
+require_once $_SERVER['DOCUMENT_ROOT'] . '/controls/incident/category_grid_control.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/controls/incident/incident_status_grid_control.php';
 
 $incident_ctl = new Incident_Control(TRUE);
 
-$category_list_control = new CategoryList_Control(TRUE);
-$incident_status_list_control = new IncidentStatusList_Control(TRUE);
-
-if (strtoupper($_SERVER['REQUEST_METHOD']) == 'POST') {
-    $incident_ctl->upsert_incident_on_submit();
+if (!isset($_SESSION[Base_Control::SESSION_ADMIN_EMAIL])) {
+	header("Location: " . $incident_ctl->company_path . "/views/admin/user/login#login");
 }
+
+$category_list_control = new Category_Grid_Control(TRUE);
+$incident_status_list_control = new IncidentStatus_Grid_Control(TRUE);
 ?>
+
 <!DOCTYPE html>
 
 <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="msvalidate.01" content="07C0053E19D8FC40FFF0BF909FB72C02" />
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <meta name="keywords" content="forms,forms generator,real free,free form,contact us
-              ,free site,free page,freep,free contact us,iln software" />
-        <meta name="description" 
-              content="A real free contact form for your website with integrated anti-spam protection!
-              ,get it now for free" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">    
         <title><?php echo ConfigUtils::ApplicationName ?> - Ticket</title>
-
+		<script src="/views/scripts/incident.js" type="text/javascript"></script>
         <meta name="google-site-verification" content="WNMH4sH0ng4oS6XDwMXS_5VdNzw_Avh59n6p8cGLvB8" />
         <?php include $_SERVER['DOCUMENT_ROOT'] . '/views/parts/styling.php'; ?>
         
@@ -43,7 +33,7 @@ if (strtoupper($_SERVER['REQUEST_METHOD']) == 'POST') {
             <?php include $_SERVER['DOCUMENT_ROOT'] . '/views/parts/top_menu.php'; ?>
         </header>
         <article>
-            <form action="incident#incident" method="post">
+            <form action="<?php echo filter_input(INPUT_GET, "id") . "#incident"; ?>" method="post">
                 <section class="section-error">
                     <label name="error"><?php echo $incident_ctl->error_message; ?></label>
                 </section>
@@ -56,16 +46,16 @@ if (strtoupper($_SERVER['REQUEST_METHOD']) == 'POST') {
                         <legend>Incident Information:</legend>
                         <div class="field">
                             <label title="Ticket main subject" for="title">Title:</label>
-                            <input type="text" name="title" value="<?php echo $incident_ctl->incident->title ?>" required 
+                            <input type="text" name="title" value="<?php echo $incident_ctl->item->title ?>" required 
                                    title="Please enter the ticket title here"/>
                         </div>
                         <div class="field">
                             <label title="Ticket category" for="categoryid">Category:</label>
                             <select name="categoryid">
-                                <?php foreach ($category_list_control->categories as $category): ?>
+                                <?php foreach ($category_list_control->items as $category): ?>
                                     <option value="<?php echo $category->categoryid ?>"
                                     <?php
-                                    if ($incident_ctl->incident->categoryid == $category->categoryid) 
+                                    if ($incident_ctl->item->categoryid == $category->categoryid) 
                                         {echo " selected ";} ?>
                                             ><?php echo $category->title ?></option>
                                 <?php endforeach; ?>
@@ -74,9 +64,9 @@ if (strtoupper($_SERVER['REQUEST_METHOD']) == 'POST') {
                         <div class="field">
                             <label title="Ticket status" for="incident_statusid">Status:</label>
                                 <select name="incident_statusid">
-                                <?php foreach ($incident_status_list_control->statuses as $status): ?>
+                                <?php foreach ($incident_status_list_control->items as $status): ?>
                                     <option value="<?php echo $status->incident_statusid ?>"
-                                            <?php if($incident_ctl->incident->incident_statusid == $status->incident_statusid) 
+                                            <?php if($incident_ctl->item->incident_statusid == $status->incident_statusid) 
                                                 {echo " selected ";} ?>
                                             ><?php echo $status->status_name ?></option>
                                 <?php endforeach; ?>
@@ -84,14 +74,14 @@ if (strtoupper($_SERVER['REQUEST_METHOD']) == 'POST') {
                             </div>
                         <div class="field">
                             <label title="Ticket description" for="description">Description:</label>
-                            <textarea name="description"><?php echo $incident_ctl->incident->description ?></textarea>
+                            <textarea name="description"><?php echo $incident_ctl->item->description ?></textarea>
                         </div>
                         
                     </fieldset>
                 </section>
                 <section class="section-submit">
                     <div class="form-top-buttons">
-                        <input type="hidden" name="ticketnumber" value="<?php echo $incident_ctl->incident->ticketnumber;  ?>" />
+                        <input type="hidden" name="id" value="<?php echo $incident_ctl->item->ticketnumber;  ?>" />
                         <input type="submit" name="submit" value="Save" />
                     </div>
                 </section>

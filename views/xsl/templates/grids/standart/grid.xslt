@@ -11,20 +11,16 @@
 	<xsl:output method="html"/>
 	<xsl:template match="grid">
 		<div class="grid-buttons">
-			<a target="_blank">
-				<xsl:attribute name="href">
-					<xsl:value-of select="@new_url" />
-				</xsl:attribute> 
-				<span>New</span>
-			</a>
 			<input type="button" name="delete" value="New">
 				<xsl:attribute name="onclick">
 					<xsl:value-of select="concat('newRecord(`',@new_url,'`)')" />
 				</xsl:attribute> 
 			</input>
 			<input type="button" name="delete" value="Delete" onclick="deleteSelectedRecords(this)" />
-			<input type="button" name="refresh" value="Refresh" onclick="refresh()">
-				
+			<input type="button" name="refresh" value="Refresh">
+				<xsl:attribute name="onclick">
+					<xsl:value-of select="concat('refresh(`',@id,'`)')" />
+				</xsl:attribute> 
 			</input>
 			<input type="hidden" name="gird_id">
 				<xsl:attribute name="value">

@@ -5,7 +5,7 @@
  require_once $_SERVER['DOCUMENT_ROOT'] . '/lib/logic/organization_logic.php';
  require_once $_SERVER['DOCUMENT_ROOT'] . '/controls/base_control.php';
  
- class Customer_Control extends Base_Control {
+ class Customer_Control extends Base_Item_Control {
      public $customer_logic;
      public $customer;
      public $error_message;

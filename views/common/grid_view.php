@@ -7,7 +7,7 @@ Class GridView {
     public $xml_data;
     public $current_page_number;
 
-    public function __construct(BaseGrid_Control $grid_control,$template_name, $current_page_number = 1) {
+    public function __construct(Base_Grid_Control $grid_control,$template_name, $current_page_number = 1) {
         $this->template_name = $template_name;
         $this->current_page_number = $current_page_number;
 		$this->xml_data = $grid_control->get_xml();

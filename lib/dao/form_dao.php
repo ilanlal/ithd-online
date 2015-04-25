@@ -32,7 +32,7 @@ class Form_DAO extends Base_DAO {
         ,submit_xml
         ,submit_json
         ,form_name
-        ,org_unique_name
+        ,organization_unique_name
         ,form_type
         FROM forms";
     public $baseUpdate = "UPDATE forms SET
@@ -58,7 +58,7 @@ class Form_DAO extends Base_DAO {
                                 ,submit_xml = ?
                                 ,submit_json = ?
                                 ,form_name = ?
-                                ,org_unique_name = ?
+                                ,organization_unique_name = ?
                                 ,form_type = ?
                             WHERE strong_id = ?";
     public $baseInsert = "INSERT INTO 
@@ -86,7 +86,7 @@ class Form_DAO extends Base_DAO {
                     ,submit_xml
                     ,submit_json
                     ,form_name
-                    ,org_unique_name
+                    ,organization_unique_name
                     ,form_type) 
         VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
 
@@ -95,10 +95,10 @@ class Form_DAO extends Base_DAO {
                 forms WHERE formid = ?";
      
     public function __construct() {
-        parent::__construct('Form');
+        parent::__construct('Form',"forms");
     }
 
-    public function get($id) {
+    public function get_by_id($id) {
         $db = new DBUtils();
         $link = $db->connect();
         $sqlQuery = $this->baseSelect . " WHERE formid = ?";
@@ -120,7 +120,7 @@ class Form_DAO extends Base_DAO {
     public function get_by_organization_unique_name($org_unique_name) {
         $db = new DBUtils();
         $link = $db->connect();
-        $sqlQuery = $this->baseSelect . " WHERE org_unique_name = ?";
+        $sqlQuery = $this->baseSelect . " WHERE organization_unique_name = ?";
         
         
         $stmt = $link->prepare($sqlQuery);
@@ -212,7 +212,7 @@ class Form_DAO extends Base_DAO {
                 , $obj->submit_xml
                 , $obj->submit_json
                 , $obj->form_name
-                , $obj->org_unique_name
+                , $obj->organization_unique_name
                 , $obj->form_type);
         $stmt->execute();
         if ($link->error) {
@@ -258,7 +258,7 @@ class Form_DAO extends Base_DAO {
                 , $obj->submit_xml
                 , $obj->submit_json
                 , $obj->form_name
-                , $obj->org_unique_name
+                , $obj->organization_unique_name
                 , $obj->form_type
                 , $obj->strong_id);
         $stmt->execute();
@@ -290,4 +290,5 @@ class Form_DAO extends Base_DAO {
         
         $link->close();
     }
+
 }

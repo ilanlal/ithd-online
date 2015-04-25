@@ -41,12 +41,16 @@ class Customer_DAO extends Base_DAO {
                     ,createdon
                     ,reset_code) 
         VALUES (?,?,?,?,?,?,?,?,?)";
-
+	
+	public $baseDelete = 
+            "DELETE FROM 
+                customer WHERE customerid = ?";
+	
     public function __construct() {
-        parent::__construct('Customer');
+        parent::__construct('Customer',"customer");
     }
 
-    public function get($id) {
+    public function get_by_id($id) {
         $db = new DBUtils();
         $link = $db->connect(); 
         $sqlQuery = $this->baseSelect . " WHERE customerid = ?";
@@ -163,6 +167,26 @@ class Customer_DAO extends Base_DAO {
         if($stmt->error) {
             parent::error($stmt->error);
         }
+        $link->close();
+    }
+	
+	public function delete($id) {
+        $db = new DBUtils();
+        $link = $db->connect(); 
+        $sqlQuery = $this->baseDelete;
+        $stmt = $link->prepare($sqlQuery);
+        if($link->error) {
+            parent::error($link->error);
+        }
+        $stmt->bind_param('i',$id);
+        $stmt->execute();
+        if($link->error) {
+            parent::error($link->error);
+        }
+        if($stmt->error) {
+            parent::error($stmt->error);
+        }
+        
         $link->close();
     }
 }

@@ -26,12 +26,16 @@ class Organization_DAO extends Base_DAO {
                     ,createdon
                     ,unique_name) 
         VALUES (?,?,?,?)";
-
+	
+	public $baseDelete = 
+            "DELETE FROM 
+                organization WHERE organizationid = ?";
+	
     public function __construct() {
-        parent::__construct('Organization');
+        parent::__construct('Organization',"organization");
     }
 
-    public function get($id) {
+    public function get_by_id($id) {
         $db = new DBUtils();
         $link = $db->connect(); 
         $sqlQuery = $this->baseSelect . " WHERE organizationid = ?";
@@ -114,6 +118,26 @@ class Organization_DAO extends Base_DAO {
                 ,$obj->statecode
                 ,$obj->unique_name
                 ,$obj->organizationid);
+        $stmt->execute();
+        if($link->error) {
+            parent::error($link->error);
+        }
+        if($stmt->error) {
+            parent::error($stmt->error);
+        }
+        
+        $link->close();
+    }
+
+	public function delete($id) {
+        $db = new DBUtils();
+        $link = $db->connect(); 
+        $sqlQuery = $this->baseDelete;
+        $stmt = $link->prepare($sqlQuery);
+        if($link->error) {
+            parent::error($link->error);
+        }
+        $stmt->bind_param('i',$id);
         $stmt->execute();
         if($link->error) {
             parent::error($link->error);

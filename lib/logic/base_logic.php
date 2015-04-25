@@ -1,6 +1,8 @@
 <?php
 
 require_once $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/lib/dao/base_dao.php';
+
 if(ConfigUtils::ENV == "DEV") {
     Logger::configure($_SERVER['DOCUMENT_ROOT'] . '/config_dev.xml');
 }
@@ -9,13 +11,41 @@ else {
 }
 require_once $_SERVER['DOCUMENT_ROOT'] . '/lib/config.php';
 
-class Base_Logic {
+abstract class Base_Logic {
     public $log;
-    
+	   
+	
     public function __construct() {
         $this->log = Logger::getLogger(get_called_class());
     }
     
+	/**
+	* @return Base_DAO
+	*/
+	public abstract function get_dao();
+	
+	/**
+	* @param Base_DataModel $item
+	*/
+	public function update_record($item) {
+		$this->get_dao()->update($item);
+	}
+	
+	/**
+	* @param Base_DataModel $item
+	* @return int item id
+	*/
+	public function insert_record($item) {
+		return $this->get_dao()->insert($item);
+	}
+	
+	/**
+	* @param int $id item id
+	*/
+	public function delete_record($id) {
+		$this->get_dao()->delete($id);
+	}
+	
     public function encrypt($clear_data) {
         $key = ConfigUtils::ky;
         $iv = ConfigUtils::iv;
@@ -36,7 +66,10 @@ class Base_Logic {
         
     }
     
-    
+    public function get_dynamic($org_unique_name,$cols, $where = NULL, $order_by = NULL, $row_limit = NULL) {
+        return $this->get_dao()->get_dynamic($org_unique_name,$cols,$where,$order_by,$row_limit);
+    }
+	
     public function fatal($msg, $throwable = null) {
         $this->log->fatal($msg, $throwable);
     }

@@ -1,5 +1,7 @@
 <?php
-class Incident {
+abstract class Base_DataModel {}
+
+class Incident extends Base_DataModel {
     public $ticketnumber, $title, $description,$createdon, $statecode,
         $incident_statusid, $categoryid,$customerid,$organization_unique_name;
     
@@ -7,28 +9,28 @@ class Incident {
     public $first_name,$last_name;
 }
 
-class Category {
+class Category extends Base_DataModel {
     public $categoryid,$title,$organization_unique_name,$index;
 }
 
-class IncidentStatus {
+class IncidentStatus extends Base_DataModel {
     public $incident_statusid,$status_name,$organization_unique_name,$index;
 }
 
-class Organization {
+class Organization extends Base_DataModel {
     public $organizationid, $organization_name, $statecode,$createdon,$unique_name;
 }
 
-class User {
+class User extends Base_DataModel {
     public $userid,$organization_unique_name,$email, $password, $statecode,$createdon,$reset_code;
 }
 
-class Customer {
+class Customer extends Base_DataModel {
     public $customerid,$organization_unique_name,$first_name,$last_name,$email
             ,$password,$phone, $statecode,$createdon,$reset_code;
 }
 
-class Form {
+class Form extends Base_DataModel {
     public $formid
             ,$user_email
             ,$email
@@ -53,11 +55,11 @@ class Form {
             ,$submit_xml
             ,$submit_json
             ,$form_name
-            ,$org_unique_name
+            ,$organization_unique_name
             ,$form_type;
 }
 
-class Submition {
+class Submition extends Base_DataModel {
     public $submitionid
             ,$email
             ,$first_name

@@ -1,6 +1,6 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'] . '/controls/base_control.php';
-$base = new Base_Control(TRUE);
+require_once $_SERVER['DOCUMENT_ROOT'] . '/controls/menu_control.php';
+$base = new Menu_Control(TRUE);
 $company_name = $base->company_path;
 ?>
 

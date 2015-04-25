@@ -1,14 +1,18 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'] . '/controls/base_control.php';
-$base = new Base_Control(TRUE);
+require_once $_SERVER['DOCUMENT_ROOT'] . '/controls/menu_control.php';
+$base = new Menu_Control(TRUE);
 $company_name = $base->company_path;
-
 ?>
 
 <nav class="clearfix1">
-    <div class="logo">
-        <img src="/views/img/ithd-online.png" alt="A Real free contat us form" title="Home" />
-    </div>
+	<div class="menu-top-line">
+		<img src="/views/img/ithd-online.png" alt="A Real free contat us form" title="Home" />
+		<div class="menu-top-line-center">
+		</div>
+		<?php if (isset($_SESSION[Base_Control::SESSION_ADMIN_EMAIL])): ?>
+		<span class="user-info">Hi: <a href="#"><?php echo $_SESSION[Base_Control::SESSION_ADMIN_EMAIL] ?></a></span>
+		<?php endif; ?>
+	</div>
     <div class="menu">
         <span class="tile green">
             <a href="<?php echo $company_name; ?>/default">    
@@ -33,17 +37,17 @@ $company_name = $base->company_path;
                 </a>
             </div>
             <div class="tile brown">
-                <a href="<?php echo $company_name; ?>/views/admin/entities/incident_status#status">
+                <a href="<?php echo $company_name; ?>/views/admin/entities/incident_status_list#status">
                     <img src="/views/img/status.png" alt="ithd-online statuses" />
                 </a>
             </div>
             <div class="tile brown">
-                <a href="<?php echo $company_name; ?>/views/admin/entities/category#category">
+                <a href="<?php echo $company_name; ?>/views/admin/entities/category_list#category">
                     <img src="/views/img/category.png" alt="ithd-online categories" />
                 </a>
             </div>
             <div class="tile brown">
-                <a href="<?php echo $company_name; ?>/views/admin/entities/forms-list#form">
+                <a href="<?php echo $company_name; ?>/views/admin/entities/landing-page-list#form">
                     <img src="/views/img/forms.png" alt="ithd-online forms" />
                 </a>
             </div>

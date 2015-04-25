@@ -1,30 +1,14 @@
 <?php
 
 require_once $_SERVER['DOCUMENT_ROOT'] . '/lib/config.php';
-require_once $_SERVER['DOCUMENT_ROOT'] . '/lib/model/data_models.php';
 require_once $_SERVER['DOCUMENT_ROOT'] . '/lib/dao/user_dao.php';
 require_once $_SERVER['DOCUMENT_ROOT'] . '/lib/logic/base_logic.php';
 
 
 
 class User_Logic extends Base_Logic {
-    public $user_dao;
-    
     public function __construct() {
         parent::__construct();
-        $this->user_dao = new User_DAO();
-    }
-    
-    public function create_user($user) {
-        /* @var $user User */
-        try {
-            $user->userid = $this->user_dao->insert($user);
-            return $user;
-        }
-        catch(Exception $exc) {
-            parent::error($exc);
-            throw $exc;
-        }
     }
     
     public function verify_user($email,$password) {
@@ -47,16 +31,6 @@ class User_Logic extends Base_Logic {
         }
     }
     
-    public function update_user($user) {
-        /* @var $user User */
-        try {
-            $this->user_dao->update($user);
-        }
-        catch(Exception $exc) {
-            parent::error($exc);
-            throw $exc;
-        }
-    }
     
     public function get_user_by_email($email) {
         return $this->user_dao->get_by_email($email);
@@ -111,10 +85,11 @@ class User_Logic extends Base_Logic {
 
         return $email->Send();
     }
-    
-    public function get_by_id($id) {
-        return $this->user_dao->get($id);
-    }
+
+	public function get_dao() {
+		return new User_DAO();
+	}
+
 }
 
 

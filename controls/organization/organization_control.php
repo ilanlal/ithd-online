@@ -2,9 +2,9 @@
 
  require_once $_SERVER['DOCUMENT_ROOT'] . '/lib/model/data_models.php';
  require_once $_SERVER['DOCUMENT_ROOT'] . '/lib/logic/organization_logic.php';
- require_once $_SERVER['DOCUMENT_ROOT'] . '/controls/base_control.php';
+ require_once $_SERVER['DOCUMENT_ROOT'] . '/controls/base_item_control.php';
  
- class Organization_Control extends Base_Control {
+ class Organization_Control extends Base_Item_Control {
      public $error_message;
      public $success_message;
      public $organization_logic;

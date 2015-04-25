@@ -7,7 +7,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/lib/common/form_config.php';
 require_once $_SERVER['DOCUMENT_ROOT'] . '/controls/base_control.php';
 
 
-class Submition_Control extends Base_Control {
+class Submition_Control extends Base_Item_Control {
     public $submition_logic;
     public $submition;
     /* @var string */

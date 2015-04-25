@@ -6,12 +6,6 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/lib/model/data_models.php';
 include_once $_SERVER['DOCUMENT_ROOT'] . '/lib/dao/base_dao.php';
 
 class Category_DAO extends Base_DAO {
-	public $dynamicSelect = "SELECT " . parent::COLS . " 
-        FROM category
-        WHERE " . parent::WHERE . "
-		ORDER BY " . parent::ORDER_BY . "
-		LIMIT " . parent::ROW_LIMIT . "";
-	
     public $baseSelect = "SELECT 
         categoryid
         ,`title`
@@ -36,10 +30,10 @@ class Category_DAO extends Base_DAO {
                 category WHERE categoryid = ?";
     
     public function __construct() {
-        parent::__construct('Category');
+        parent::__construct('Category',"category");
     }
 
-    public function get($id) {
+    public function get_by_id($id) {
         $db = new DBUtils();
         $link = $db->connect(); 
         $sqlQuery = $this->baseSelect . " WHERE categoryid = ?";
@@ -58,35 +52,7 @@ class Category_DAO extends Base_DAO {
         return parent::bind_first_or_null($stmt);
     }
     
-     public function get_dynamic($cols,$where=NULL,$order_by=NULL,$row_limit=NULL) {
-        $db = new DBUtils();
-        $link = $db->connect();
-        $sqlQuery = $this->dynamicSelect;
-        
-        $where=($where===NULL?"1":$where);
-        $order_by=($order_by===NULL?"1":$order_by);
-		$row_limit=($row_limit===NULL?ConfigUtils::DYNAMIC_SELECT_DEFAULT_ROW_LIMIT:$row_limit);     
-        
-		$sqlQuery = str_replace(parent::COLS, $cols, $sqlQuery);
-		$sqlQuery = str_replace(parent::WHERE, $where, $sqlQuery);
-		$sqlQuery = str_replace(parent::ORDER_BY, $order_by, $sqlQuery);
-		$sqlQuery = str_replace(parent::ROW_LIMIT, $row_limit, $sqlQuery);
-		
-        $stmt = $link->prepare($sqlQuery);
-        if($link->error) {
-            parent::error($link->error);
-        }
-		
-        $stmt->execute();
-        if($link->error) {
-            parent::error($link->error);
-        }
-        if($stmt->error) {
-            parent::error($stmt->error);
-        }
-		
-        return parent::bind_all_or_null($stmt);
-    }
+    
 	
     public function get_by_organization_unique_name($unique_name) {
         $db = new DBUtils();
@@ -172,6 +138,7 @@ class Category_DAO extends Base_DAO {
     }   
     
     public function update($obj) {
+		
         /* @var $obj Category */
         $db = new DBUtils();
         $link = $db->connect(); 
@@ -192,9 +159,7 @@ class Category_DAO extends Base_DAO {
         if($stmt->error) {
             parent::error($stmt->error);
         }
-        $res = $link->insert_id;
         $link->close();
-        return $res;
     }
     
     public function delete($id) {
@@ -216,4 +181,5 @@ class Category_DAO extends Base_DAO {
         
         $link->close();
     }
+
 }

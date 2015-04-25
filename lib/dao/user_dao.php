@@ -32,12 +32,17 @@ class User_DAO extends Base_DAO {
                     ,createdon
                     ,reset_code) 
         VALUES (?,?,?,?,?,?)";
-
+	
+	public $baseDelete = 
+            "DELETE FROM 
+                users WHERE userid = ?";
+	
+	
     public function __construct() {
-        parent::__construct('User');
+        parent::__construct('User',"user");
     }
 
-    public function get($id) {
+    public function get_by_id($id) {
         $db = new DBUtils();
         $link = $db->connect(); 
         $sqlQuery = $this->baseSelect . " WHERE userid = ?";
@@ -160,6 +165,26 @@ class User_DAO extends Base_DAO {
                 ,$obj->statecode
                 ,$obj->reset_code
                 ,$obj->userid);
+        $stmt->execute();
+        if($link->error) {
+            parent::error($link->error);
+        }
+        if($stmt->error) {
+            parent::error($stmt->error);
+        }
+        
+        $link->close();
+    }
+	
+	public function delete($id) {
+        $db = new DBUtils();
+        $link = $db->connect(); 
+        $sqlQuery = $this->baseDelete;
+        $stmt = $link->prepare($sqlQuery);
+        if($link->error) {
+            parent::error($link->error);
+        }
+        $stmt->bind_param('i',$id);
         $stmt->execute();
         if($link->error) {
             parent::error($link->error);

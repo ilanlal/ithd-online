@@ -8,6 +8,9 @@ DirectoryIndex default.php
 # Swap domain.com and www.domain.com between the 2 lines to have it do the reverse
 RewriteEngine on
 
+RewriteCond %{HTTP_HOST} ^ithd-online.local$ 
+RewriteRule ^(.*)$ http://www.ithd-online.local/$1 [R=301,L]
+
 RewriteCond %{HTTP_HOST} ^ithd-online.com$ 
 RewriteRule ^(.*)$ http://www.ithd-online.com/$1 [R=301,L]
 
@@ -17,8 +20,9 @@ RewriteRule ^([^/.]+)/?$ /$1.php [L]
 RewriteRule ^([^/.]+)/([^/.]+)/?$ /$2.php?company=$2 [L]
 RewriteRule ^views/([^/.]+)/([^/.]+)/([^/.]+)/?$ views/$1/$2/$3.php [L]
 RewriteRule ^([^/.]+)/views/([^/.]+)/([^/.]+)/([^/.]+)/?$ views/$2/$3/$4.php?company=$1 [L]
-RewriteRule ^([^/.]+)/views/([^/.]+)/([^/.]+)/([^/.]+)/([^/.]+)/?$ views/$2/$3/$4.php?company=$1&id=$5 [L]
+RewriteRule ^([^/.]+)/views/([^/.]+)/([^/.]+)/([^/.]+)/([^/.]+)/?$ views/$2/$3/$4.php?company=$1&cmd=$5 [L]
 RewriteRule ^([^/.]+)/views/([^/.]+)/([^/.]+)/([^/.]+)/([^/.]+)/([^/.]+)/?$ views/$2/$3/$4.php?company=$1&cmd=$5&id=$6 [L]
+RewriteRule ^([^/.]+)/views/([^/.]+)/([^/.]+)/([^/.]+)/([^/.]+)/([^/.]+)/([^/.]+)/?$ views/$2/$3/$4.php?company=$1&cmd=$6&type=$5&id=$7 [L]
 
 #RewriteRule ^([^/.]+)/?$ /$1.php [L]
 #RewriteRule ^([^/.]+)/default/?$ /default.php [L]

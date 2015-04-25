@@ -6,6 +6,7 @@ function newRecord(url) {
 }
 
 function deleteSelectedRecords(e) {
+	
 	for(i=0;i<selectedRecords.length;i++) {
 		var id = selectedRecords[i];
 		var recorde = document.getElementById(id);
@@ -21,8 +22,8 @@ function hideRecod(id) {
 	}
 }
 
-function refresh() {
-	alert(selectedRecords);
+function refresh(gridId) {
+	window.location.reload(false);
 }
 
 function selectRow(e,id) {
@@ -32,4 +33,8 @@ function selectRow(e,id) {
 	else {
 		selectedRecords.splice(selectedRecords.indexOf(id),1);
 	}
+}
+
+function getGridHtml() {
+	
 }

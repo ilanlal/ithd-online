@@ -3,18 +3,19 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/controls/base_control.php';
 require_once $_SERVER['DOCUMENT_ROOT'] . '/lib/model/element_model.php';
 
 
-abstract class BaseGrid_Control extends Base_Control {
+abstract class Base_Grid_Control extends Base_Control {
     private $cols = [];
 	public function set_cols($cols) {
 		$this->cols = $cols;
 		return $this;
 	}
 	
-	private $rows = [];
-	public function set_rows($rows) {
-		$this->rows = $rows;
+	public $items = [];
+	public function set_items($items) {
+		$this->items = $items;
 		return $this;
 	}
+	
 	
     private $unique_id;
 	public function set_unique_id($unique_id) {
@@ -50,20 +51,12 @@ abstract class BaseGrid_Control extends Base_Control {
 		return $this;
 	}
 	
-	/* @var iGrid_Logic */
-	private $logic_object;
-	public function set_logic_object(iGrid_Logic $logic_object) {
-		$this->logic_object = $logic_object;
-		return $this;
-	}
-	
-    public function __construct(iGrid_Logic $logic_object,$unique_id,$title,$cols,$key,$where,$order_by, $admin = FALSE) {
+	public function __construct($unique_id,$title,$cols,$key,$where,$order_by, $admin = FALSE) {
 		$this
 		->set_unique_id($unique_id)
 		->set_title($title)
 		->set_cols($cols)
 		->set_key($key)
-		->set_logic_object($logic_object)
 		->set_where($where)
 		->set_order_by($order_by);
 		
@@ -77,15 +70,15 @@ abstract class BaseGrid_Control extends Base_Control {
 	
 	
 	public function load() {
-		$this->rows = $this->get_items($this->where, $this->order_by, $this->row_limit);
-		if($this->rows == NULL) {
-			$this->rows = [];
+		$this->items = $this->get_items($this->where, $this->order_by, $this->row_limit);
+		if($this->items == NULL) {
+			$this->items = [];
 		}
 	}
 	
 	public function get_items($where = NULL, $order_by = NULL, $row_limit = NULL) { 
         $cols = $this->build_select_string_from_array();
-        return $this->logic_object->get_dynamic($cols,$where,$order_by,$row_limit);
+		return $this->get_logic()->get_dynamic($this->get_org_unique_name(),$cols,$where,$order_by,$row_limit);
 	}
     
 	
@@ -153,8 +146,8 @@ abstract class BaseGrid_Control extends Base_Control {
 		$row_template = "<row id='{{id}}' open_url='{{open_url}}' delete_url='{{delete_url}}'>{{cells}}</row>";
 		$cell_template = "<cell name='{{schema_name}}'>{{value}}</cell>";
 		
-		foreach ($this->rows as $row) {
-			$id = $row->getProperty($this->key)->getValue($row);
+		foreach ($this->items as $item) {
+			$id = $item->getProperty($this->key)->getValue($item);
             
 			$xml_row = $row_template;
 			$xml_row = str_replace("{{id}}", $id, $xml_row);
@@ -162,7 +155,7 @@ abstract class BaseGrid_Control extends Base_Control {
 			$xml_row = str_replace("{{delete_url}}",$this->get_item_delete_url($id) , $xml_row);
 			$cells = "";
 			foreach ($this->cols as $col) {
-				$value = $row->getProperty(trim($col->schema_name,'`'))->getValue($row);
+				$value = $item->getProperty(trim($col->schema_name,'`'))->getValue($item);
 				$xml_cell = $cell_template;
 				
 				$xml_cell = str_replace("{{schema_name}}", $col->schema_name, $xml_cell);

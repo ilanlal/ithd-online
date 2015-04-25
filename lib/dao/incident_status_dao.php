@@ -30,10 +30,10 @@ class IncidentStatus_DAO extends Base_DAO {
                 incident_status WHERE incident_statusid = ?";
     
     public function __construct() {
-        parent::__construct('IncidentStatus');
+		parent::__construct('IncidentStatus',"incident_status");
     }
 
-    public function get($id) {
+	public function get_by_id($id) {
         $db = new DBUtils();
         $link = $db->connect(); 
         $sqlQuery = $this->baseSelect . " WHERE incident_statusid = ?";

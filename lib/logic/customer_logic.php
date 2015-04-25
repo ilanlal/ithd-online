@@ -1,30 +1,15 @@
 <?php
 
 require_once $_SERVER['DOCUMENT_ROOT'] . '/lib/config.php';
-require_once $_SERVER['DOCUMENT_ROOT'] . '/lib/model/data_models.php';
 require_once $_SERVER['DOCUMENT_ROOT'] . '/lib/dao/customer_dao.php';
 require_once $_SERVER['DOCUMENT_ROOT'] . '/lib/logic/base_logic.php';
 
 
 
 class Customer_Logic extends Base_Logic {
-    public $customer_dao;
     
     public function __construct() {
         parent::__construct();
-        $this->customer_dao = new Customer_DAO();
-    }
-    
-    public function create_customer($customer) {
-        /* @var $customer Customer */
-        try {
-            $customer->userid = $this->customer_dao->insert($customer);
-            return $customer;
-        }
-        catch(Exception $exc) {
-            parent::error($exc);
-            throw $exc;
-        }
     }
     
     public function verify_customer($email,$password,$org_unique_name) {
@@ -44,17 +29,6 @@ class Customer_Logic extends Base_Logic {
         catch(Exception $exc) {
             parent::error($exc);
             return FALSE;
-        }
-    }
-    
-    public function update_customer($customer) {
-        /* @var $customer Customer */
-        try {
-            $this->customer_dao->update($customer);
-        }
-        catch(Exception $exc) {
-            parent::error($exc);
-            throw $exc;
         }
     }
     
@@ -100,6 +74,11 @@ class Customer_Logic extends Base_Logic {
     public function get_by_id($id) {
         return $this->customer_dao->get($id);
     }
+
+	public function get_dao() {
+		return new Customer_DAO();
+	}
+
 }
 
 
